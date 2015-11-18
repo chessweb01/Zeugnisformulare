@@ -1,2 +1,2 @@
 # Zeugnisformulare
-Zeugnisformulare für Schild-NRW
+Zeugnisformulare für Schild-NRW gegliedert nach Bildungsgängen
