@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = ' Drucker autom. Auswahl'
-  PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+  PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
@@ -20,7 +20,7 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Berufsfachschule\Abschlusszeugnis_BFS.rtm'
+    '_2015ff\Berufsfachschule\Abschlusszeugnis_BFS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -99,7 +99,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -171,7 +171,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsbezogen
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -510,7 +510,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport6: TppChildReport
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -864,7 +864,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsuebergreifend
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -1004,7 +1004,7 @@ object Report: TppReport
             OutlineSettings.CreateNode = True
             ParentPrinterSetup = False
             TraverseAllData = False
-            Filename = 'Zeugniskopf_AbsZ_BFS.rtm'
+            Filename = 'Zeugniskopf_AbsZ_2015ff.rtm'
             DataPipelineName = 'EigeneSchule'
             mmHeight = 5027
             mmLeft = 0
@@ -2017,7 +2017,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_BFS_final.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -2185,7 +2185,7 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
     object ppArchivierung: TppParameter
       AutoSearchSettings.LogicalPrefix = []
       AutoSearchSettings.Mandatory = True
