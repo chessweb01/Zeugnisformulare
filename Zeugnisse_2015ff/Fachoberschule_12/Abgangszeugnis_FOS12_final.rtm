@@ -110,6 +110,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -300,6 +301,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -549,6 +551,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -763,10 +766,10 @@ object Report: TppReport
             546578742876617220546578743A20537472696E67293B0D0A626567696E200D
             0A202069662028424B42657275667362657A6F67656E5B275A6575676E697362
             657A656963686E756E67275D203D2027456E676C697363682729207468656E0D
-            0A2020202054657874203A3D2054657874202B20272028413129273B0D0A0D0A
+            0A2020202054657874203A3D2054657874202B20272028423229273B0D0A0D0A
             656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506074442546578743709
             4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-            61726574506F730102010207000000}
+            61726574506F730102190204000000}
         end
         object ppDesignLayers4: TppDesignLayers
           object ppDesignLayer4: TppDesignLayer
@@ -1545,6 +1548,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -2358,6 +2362,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
