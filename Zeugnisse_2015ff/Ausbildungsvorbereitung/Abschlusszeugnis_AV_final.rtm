@@ -1585,8 +1585,8 @@ object Report: TppReport
             Stretch = True
             Transparent = True
             mmHeight = 22225
-            mmLeft = 206640
-            mmTop = 202936
+            mmLeft = 206905
+            mmTop = 199761
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1663,18 +1663,18 @@ object Report: TppReport
             RichText = 
               '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
               'rset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}'#13#10'\viewkind4\uc1\pard\' +
-              'fs18 Dem Zeugnis liegen zugrunde:\par'#13#10'\par'#13#10'\pard{\pntext\f1\'#39'B' +
-              '7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 ' +
-              'die Verordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bild' +
-              'ungsg\'#39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsord' +
-              'nung Berufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS' +
-              ' 13 - 33 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
+              'fs18 Dem Zeugnis liegt zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}{' +
+              '\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ver' +
+              'ordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\'#39 +
+              'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung Be' +
+              'rufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - 3' +
+              '3 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
             mmHeight = 20638
             mmLeft = 0
-            mmTop = 205339
+            mmTop = 229923
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1846,15 +1846,23 @@ object Report: TppReport
             MailMerge = True
             RichText = 
               '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
-              'rset0 Arial;}}'#13#10'\viewkind4\uc1\pard\fs18 Bestandteil dieses Zeug' +
-              'nisses ist eine Anlage, aus der die Zuordnung der Lernfelder zu ' +
-              'den bereichsspezifischen F\'#39'e4chern hervorgeht.\par'#13#10'}'#13#10#0
+              'rset0 Arial;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1' +
+              '\pard\fs18 Bestandteil dieses Zeugnisses ist eine Anlage, aus de' +
+              'r die Zuordnung der Lernfelder zu den bereichsspezifischen F\'#39'e4' +
+              'chern hervorgeht.\par'#13#10'\cf1\fs16\par'#13#10'\fs18 Der Unterricht in de' +
+              'n modernen Fremdsprachen hat nach der nach dem Fach in Klammern ' +
+              'angegebenen Niveaustufe des "Europ\'#39'e4ischen Referenzrahmens f\'#39 +
+              'fcr Sprachen: Lernen, Lehren, Beurteilen" stattgefunden. Sind zw' +
+              'ei Referenzniveaus ausgewiesen, ist das niedrigere in vollem Umf' +
+              'ang, das h\'#39'f6here in Anteilen erreicht.Bei mindestens ausreiche' +
+              'nden Leistungen wird der sprachliche Kompetenzerwerb auf diesem ' +
+              'Niveau bescheinigt.\cf0\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
-            mmHeight = 13494
-            mmLeft = 0
-            mmTop = 187075
+            mmHeight = 24871
+            mmLeft = 1323
+            mmTop = 199760
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -2128,7 +2136,7 @@ object Report: TppReport
           end
           object ppLabel51: TppLabel
             UserName = 'Label51'
-            Caption = 'des Bildungsganges'
+            Caption = 'des Vollzeitbildungsganges'
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
             Font.Name = 'Arial'
@@ -2137,9 +2145,9 @@ object Report: TppReport
             TextAlignment = taCentered
             Transparent = True
             mmHeight = 8466
-            mmLeft = 259292
+            mmLeft = 248180
             mmTop = 151607
-            mmWidth = 64823
+            mmWidth = 86783
             BandType = 4
             LayerName = Foreground2
           end

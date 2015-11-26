@@ -503,19 +503,7 @@ object Report: TppReport
             656E0D0A2020202044657461696C2E56697369626C65203A3D2066616C73653B
             0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060644657461696C0945
             76656E744E616D65060B4265666F72655072696E74074576656E744944021808
-            4361726574506F730102000200000001060F5472614576656E7448616E646C65
-            720B50726F6772616D4E616D650610444254657874344F6E476574546578740B
-            50726F6772616D54797065070B747450726F63656475726506536F7572636506
-            DC70726F63656475726520444254657874344F6E476574546578742876617220
-            546578743A20537472696E67293B0D0A626567696E0D0A202069662028436F70
-            7928424B42657275667375656265726772656966656E645B275A6575676E6973
-            62657A656963686E756E67275D2C20312C203729203D20274465757473636827
-            2920616E642028436F70792853636875656C65725B274B6C61737365275D2C20
-            312C203329203D202749464B2729207468656E0D0A2020202054657874203A3D
-            2054657874202B2027202841322F423129273B0D0A0D0A656E643B0D0A0D436F
-            6D706F6E656E744E616D65060744425465787434094576656E744E616D650609
-            4F6E47657454657874074576656E7449440235084361726574506F7301020502
-            06000000}
+            4361726574506F730102000200000000}
         end
         object ppDesignLayers5: TppDesignLayers
           object ppDesignLayer5: TppDesignLayer
@@ -768,17 +756,7 @@ object Report: TppReport
             4265666F72655072696E743B0D0A626567696E0D0A202020205469746C652E48
             6569676874203A3D373B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
             06055469746C65094576656E744E616D65060B4265666F72655072696E740745
-            76656E7449440218084361726574506F730102030203000001060F5472614576
-            656E7448616E646C65720B50726F6772616D4E616D650610444254657874374F
-            6E476574546578740B50726F6772616D54797065070B747450726F6365647572
-            6506536F75726365069C70726F63656475726520444254657874374F6E476574
-            546578742876617220546578743A20537472696E67293B0D0A626567696E200D
-            0A202069662028424B42657275667362657A6F67656E5B275A6575676E697362
-            657A656963686E756E67275D203D2027456E676C697363682729207468656E0D
-            0A2020202054657874203A3D2054657874202B20272028413129273B0D0A0D0A
-            656E643B0D0A0D436F6D706F6E656E744E616D65060744425465787437094576
-            656E744E616D6506094F6E47657454657874074576656E744944023508436172
-            6574506F730102050206000000}
+            76656E7449440218084361726574506F730102030203000000}
         end
         object ppDesignLayers4: TppDesignLayers
           object ppDesignLayer4: TppDesignLayer
@@ -1988,7 +1966,7 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 28310
+      mmHeight = 24342
       mmPrintPosition = 0
       object ppDBText1: TppDBText
         UserName = 'DBText1'
@@ -2004,8 +1982,8 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 21960
+        mmLeft = 94456
+        mmTop = 17198
         mmWidth = 56886
         BandType = 3
         GroupNo = 0
@@ -2144,24 +2122,7 @@ object Report: TppReport
       end
       object ppLabel28: TppLabel
         UserName = 'Label28'
-        Caption = 'Fachbereich:'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
-        Font.Name = 'Arial'
-        Font.Size = 10
-        Font.Style = []
-        Transparent = True
-        mmHeight = 4233
-        mmLeft = 0
-        mmTop = 16934
-        mmWidth = 19844
-        BandType = 3
-        GroupNo = 0
-        LayerName = Foreground
-      end
-      object ppLabel29: TppLabel
-        UserName = 'Label29'
-        Caption = 'Berufsfeld:'
+        Caption = 'im Fachbereich'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2170,15 +2131,32 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 0
-        mmTop = 21965
-        mmWidth = 16140
+        mmTop = 17198
+        mmWidth = 23548
+        BandType = 3
+        GroupNo = 0
+        LayerName = Foreground
+      end
+      object ppLabel29: TppLabel
+        UserName = 'Label29'
+        Caption = 'Berufsfeld'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        Transparent = True
+        mmHeight = 4234
+        mmLeft = 76729
+        mmTop = 17198
+        mmWidth = 15082
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
       end
       object ppLabel30: TppLabel
         UserName = 'Label30'
-        Caption = 'Vollzeitbildungsgang:'
+        Caption = 'des Vollzeitbildungsganges'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2188,7 +2166,7 @@ object Report: TppReport
         mmHeight = 4234
         mmLeft = 0
         mmTop = 11906
-        mmWidth = 32544
+        mmWidth = 41804
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2203,7 +2181,7 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 35983
+        mmLeft = 43921
         mmTop = 11906
         mmWidth = 41804
         BandType = 3
@@ -2215,7 +2193,7 @@ object Report: TppReport
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 26993
+        mmTop = 23019
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2231,8 +2209,8 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 16933
+        mmLeft = 25665
+        mmTop = 17198
         mmWidth = 48683
         BandType = 3
         GroupNo = 0
@@ -2440,6 +2418,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

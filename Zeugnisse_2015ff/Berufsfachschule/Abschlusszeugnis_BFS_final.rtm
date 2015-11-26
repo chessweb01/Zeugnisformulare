@@ -1486,9 +1486,9 @@ object Report: TppReport
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
-            mmHeight = 22225
+            mmHeight = 24606
             mmLeft = 206640
-            mmTop = 202936
+            mmTop = 199495
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1565,22 +1565,21 @@ object Report: TppReport
             RichText = 
               '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
               'rset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}'#13#10'\viewkind4\uc1\pard\' +
-              'fs18 Dem Zeugnis liegen zugrunde:\par'#13#10'\par'#13#10'\pard{\pntext\f1\'#39'B' +
-              '7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 ' +
-              'die Verordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bild' +
-              'ungsg\'#39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsord' +
-              'nung Berufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS' +
-              ' 13 - 33 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'\pard\par' +
-              #13#10'\pard{\pntext\f1\'#39'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxt' +
-              'b\'#39'B7}}\fi-200\li200 die Rahmenvereinbarung \'#39'fcber die Berufsfa' +
-              'chschulen (Beschluss der Kultusministerkonferenz vom 17.10.2013)' +
-              ' in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
+              'fs18 Dem Zeugnis liegen zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}' +
+              '{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ve' +
+              'rordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\' +
+              #39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung B' +
+              'erufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - ' +
+              '33 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'{\pntext\f1\'#39'B7' +
+              '\tab}die Rahmenvereinbarung \'#39'fcber die Berufsfachschulen (Besch' +
+              'luss der Kultusministerkonferenz vom 17.10.2013) in der jeweils ' +
+              'geltenden Fassung\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
             mmHeight = 26988
             mmLeft = 0
-            mmTop = 196064
+            mmTop = 229923
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1752,15 +1751,23 @@ object Report: TppReport
             MailMerge = True
             RichText = 
               '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
-              'rset0 Arial;}}'#13#10'\viewkind4\uc1\pard\fs18 Bestandteil dieses Zeug' +
-              'nisses ist eine Anlage, aus der die Zuordnung der Lernfelder zu ' +
-              'den bereichsspezifischen F\'#39'e4chern hervorgeht.\par'#13#10'}'#13#10#0
+              'rset0 Arial;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1' +
+              '\pard\fs18 Bestandteil dieses Zeugnisses ist eine Anlage, aus de' +
+              'r die Zuordnung der Lernfelder zu den bereichsspezifischen F\'#39'e4' +
+              'chern hervorgeht.\par'#13#10'\par'#13#10'\cf1 Der Unterricht in den modernen' +
+              ' Fremdsprachen hat nach der nach dem Fach in Klammern angegebene' +
+              'n Niveaustufe des "Europ\'#39'e4ischen Referenzrahmens f\'#39'fcr Sprach' +
+              'en: Lernen, Lehren, Beurteilen" stattgefunden. Sind zwei Referen' +
+              'zniveaus ausgewiesen, ist das niedrigere in vollem Umfang, das h' +
+              '\'#39'f6here in Anteilen erreicht.Bei mindestens ausreichenden Leist' +
+              'ungen wird der sprachliche Kompetenzerwerb auf diesem Niveau bes' +
+              'cheinigt.\cf0\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True
-            mmHeight = 13494
+            mmHeight = 26458
             mmLeft = 0
-            mmTop = 177800
+            mmTop = 199495
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
