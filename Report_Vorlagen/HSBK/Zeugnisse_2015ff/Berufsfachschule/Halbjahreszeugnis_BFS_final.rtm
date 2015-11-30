@@ -1986,7 +1986,7 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 61383
+        mmLeft = 105825
         mmTop = 16933
         mmWidth = 56886
         BandType = 3
@@ -2150,8 +2150,8 @@ object Report: TppReport
         Font.Size = 10
         Font.Style = []
         Transparent = True
-        mmHeight = 4234
-        mmLeft = 42598
+        mmHeight = 4233
+        mmLeft = 87039
         mmTop = 16933
         mmWidth = 15081
         BandType = 3
@@ -2449,6 +2449,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
