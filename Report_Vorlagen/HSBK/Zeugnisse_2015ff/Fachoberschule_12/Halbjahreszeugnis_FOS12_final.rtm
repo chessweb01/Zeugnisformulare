@@ -1941,7 +1941,7 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 24606
+      mmHeight = 26458
       mmPrintPosition = 0
       object ppDBText1: TppDBText
         UserName = 'DBText1'
@@ -1957,8 +1957,8 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 58208
-        mmTop = 16933
+        mmLeft = 98161
+        mmTop = 17728
         mmWidth = 56886
         BandType = 3
         GroupNo = 0
@@ -1996,7 +1996,7 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 35719
+        mmLeft = 34396
         mmTop = 6350
         mmWidth = 10848
         BandType = 3
@@ -2068,7 +2068,7 @@ object Report: TppReport
         TextAlignment = taRightJustified
         Transparent = True
         mmHeight = 4233
-        mmLeft = 52123
+        mmLeft = 50271
         mmTop = 6350
         mmWidth = 13229
         BandType = 3
@@ -2088,9 +2088,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'Schueler'
         mmHeight = 4498
-        mmLeft = 70379
-        mmTop = 6085
-        mmWidth = 17198
+        mmLeft = 66146
+        mmTop = 6350
+        mmWidth = 51594
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2106,7 +2106,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 0
-        mmTop = 16933
+        mmTop = 17728
         mmWidth = 23548
         BandType = 3
         GroupNo = 0
@@ -2114,17 +2114,17 @@ object Report: TppReport
       end
       object ppLabel29: TppLabel
         UserName = 'Label29'
-        Caption = 'Berufsfeld'
+        Caption = 'mit dem fachlichen Schwerpunkt'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
         Font.Size = 10
         Font.Style = []
         Transparent = True
-        mmHeight = 4234
-        mmLeft = 41010
-        mmTop = 16933
-        mmWidth = 15082
+        mmHeight = 4233
+        mmLeft = 43392
+        mmTop = 17728
+        mmWidth = 49742
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2168,7 +2168,7 @@ object Report: TppReport
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 23548
+        mmTop = 24608
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2184,8 +2184,8 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 24604
-        mmTop = 16933
+        mmLeft = 26458
+        mmTop = 17728
         mmWidth = 13229
         BandType = 3
         GroupNo = 0
@@ -2384,7 +2384,16 @@ object Report: TppReport
       7365275D203D202742464E322729207468656E0D0A2020202054657874203A3D
       2027273B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506074442
       5465787431094576656E744E616D6506094F6E47657454657874074576656E74
-      49440235084361726574506F730102050209000000}
+      49440235084361726574506F730102050209000001060F5472614576656E7448
+      616E646C65720B50726F6772616D4E616D650610444254657874324F6E476574
+      546578740B50726F6772616D54797065070B747450726F63656475726506536F
+      75726365067D70726F63656475726520444254657874324F6E47657454657874
+      2876617220546578743A20537472696E67293B0D0A626567696E0D0A0D0A2020
+      54657874203A3D20466F726D61744461746554696D65282764642E206D6D6D6D
+      2079797979272C20537472546F44617465285465787429293B0D0A0D0A656E64
+      3B0D0A0D436F6D706F6E656E744E616D65060744425465787432094576656E74
+      4E616D6506094F6E47657454657874074576656E744944023508436172657450
+      6F730102150203000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

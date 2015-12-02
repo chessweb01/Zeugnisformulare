@@ -1903,12 +1903,12 @@ object Report: TppReport
       RichText = 
         '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
         'rset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}'#13#10'\viewkind4\uc1\pard\' +
-        'fs16 Dem Zeugnis liegen zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}' +
-        '{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ve' +
-        'rordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\' +
-        #39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung B' +
-        'erufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - ' +
-        '33 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
+        'fs16 Dem Zeugnis liegt zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}{' +
+        '\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ver' +
+        'ordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\'#39 +
+        'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung Be' +
+        'rufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - 3' +
+        '3 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Transparent = True
       mmHeight = 17463
@@ -2113,9 +2113,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'Schueler'
         mmHeight = 4498
-        mmLeft = 78052
-        mmTop = 6084
-        mmWidth = 17198
+        mmLeft = 74877
+        mmTop = 6350
+        mmWidth = 59267
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2409,7 +2409,16 @@ object Report: TppReport
       7365275D203D202742464E322729207468656E0D0A2020202054657874203A3D
       2027273B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506074442
       5465787431094576656E744E616D6506094F6E47657454657874074576656E74
-      49440235084361726574506F730102050209000000}
+      49440235084361726574506F730102050209000001060F5472614576656E7448
+      616E646C65720B50726F6772616D4E616D650610444254657874324F6E476574
+      546578740B50726F6772616D54797065070B747450726F63656475726506536F
+      75726365067D70726F63656475726520444254657874324F6E47657454657874
+      2876617220546578743A20537472696E67293B0D0A626567696E0D0A0D0A2020
+      54657874203A3D20466F726D61744461746554696D65282764642E206D6D6D6D
+      2079797979272C20537472546F44617465285465787429293B0D0A0D0A656E64
+      3B0D0A0D436F6D706F6E656E744E616D65060744425465787432094576656E74
+      4E616D6506094F6E47657454657874074576656E744944023508436172657450
+      6F730102340204000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

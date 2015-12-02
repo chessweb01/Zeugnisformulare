@@ -1967,9 +1967,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 104775
+        mmLeft = 135467
         mmTop = 11906
-        mmWidth = 56886
+        mmWidth = 38894
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2061,7 +2061,7 @@ object Report: TppReport
         mmHeight = 4498
         mmLeft = 14552
         mmTop = 6085
-        mmWidth = 17198
+        mmWidth = 34131
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2075,8 +2075,8 @@ object Report: TppReport
         Font.Size = 10
         Font.Style = []
         Transparent = True
-        mmHeight = 4234
-        mmLeft = 0
+        mmHeight = 4233
+        mmLeft = 32544
         mmTop = 11906
         mmWidth = 23548
         BandType = 3
@@ -2093,7 +2093,7 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 84667
+        mmLeft = 115888
         mmTop = 11906
         mmWidth = 15081
         BandType = 3
@@ -2110,8 +2110,8 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 139700
-        mmTop = 6085
+        mmLeft = 0
+        mmTop = 11906
         mmWidth = 28575
         BandType = 3
         GroupNo = 0
@@ -2138,8 +2138,8 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 27258
-        mmTop = 11899
+        mmLeft = 60061
+        mmTop = 11906
         mmWidth = 13229
         BandType = 3
         GroupNo = 0
@@ -2154,8 +2154,8 @@ object Report: TppReport
         Font.Size = 10
         Font.Style = []
         Transparent = True
-        mmHeight = 4234
-        mmLeft = 34394
+        mmHeight = 4233
+        mmLeft = 50271
         mmTop = 6085
         mmWidth = 10054
         BandType = 3
@@ -2314,7 +2314,16 @@ object Report: TppReport
       C3BC6C6572696E206465732042696C64756E677367616E676573273B0D0A0D0A
       656E643B0D0A0D436F6D706F6E656E744E616D6506064C6162656C3209457665
       6E744E616D6506094F6E47657454657874074576656E74494402350843617265
-      74506F730102340206000000}
+      74506F730102340206000001060F5472614576656E7448616E646C65720B5072
+      6F6772616D4E616D650610444254657874324F6E476574546578740B50726F67
+      72616D54797065070B747450726F63656475726506536F75726365067D70726F
+      63656475726520444254657874324F6E47657454657874287661722054657874
+      3A20537472696E67293B0D0A626567696E0D0A0D0A202054657874203A3D2046
+      6F726D61744461746554696D65282764642E206D6D6D6D2079797979272C2053
+      7472546F44617465285465787429293B0D0A0D0A656E643B0D0A0D436F6D706F
+      6E656E744E616D65060744425465787432094576656E744E616D6506094F6E47
+      657454657874074576656E7449440235084361726574506F7301023C02040000
+      00}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

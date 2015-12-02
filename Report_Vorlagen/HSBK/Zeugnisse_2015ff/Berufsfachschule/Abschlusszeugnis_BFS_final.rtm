@@ -614,7 +614,7 @@ object Report: TppReport
             DataPipelineName = 'Schueler'
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 57415
+            mmTop = 32279
             mmWidth = 9260
             BandType = 4
             LayerName = Foreground1
@@ -634,7 +634,7 @@ object Report: TppReport
             DataPipelineName = 'Schueler'
             mmHeight = 5027
             mmLeft = 9260
-            mmTop = 57415
+            mmTop = 32279
             mmWidth = 33338
             BandType = 4
             LayerName = Foreground1
@@ -650,7 +650,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 65352
+            mmTop = 40217
             mmWidth = 20902
             BandType = 4
             LayerName = Foreground1
@@ -672,7 +672,7 @@ object Report: TppReport
             DataPipelineName = 'Schueler'
             mmHeight = 4763
             mmLeft = 21431
-            mmTop = 65352
+            mmTop = 40217
             mmWidth = 36248
             BandType = 4
             LayerName = Foreground1
@@ -689,7 +689,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 59002
-            mmTop = 65352
+            mmTop = 40217
             mmWidth = 2910
             BandType = 4
             LayerName = Foreground1
@@ -709,7 +709,7 @@ object Report: TppReport
             DataPipelineName = 'Schueler'
             mmHeight = 4763
             mmLeft = 63500
-            mmTop = 65352
+            mmTop = 40217
             mmWidth = 22754
             BandType = 4
             LayerName = Foreground1
@@ -725,7 +725,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 73819
+            mmTop = 48683
             mmWidth = 15875
             BandType = 4
             LayerName = Foreground1
@@ -747,7 +747,7 @@ object Report: TppReport
             DataPipelineName = 'Schueler'
             mmHeight = 4763
             mmLeft = 22754
-            mmTop = 73819
+            mmTop = 48683
             mmWidth = 29633
             BandType = 4
             LayerName = Foreground1
@@ -763,7 +763,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 60590
-            mmTop = 73819
+            mmTop = 48683
             mmWidth = 65352
             BandType = 4
             LayerName = Foreground1
@@ -781,8 +781,8 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = 'Schueler'
             mmHeight = 6085
-            mmLeft = 28310
-            mmTop = 121949
+            mmLeft = 17198
+            mmTop = 103717
             mmWidth = 9260
             BandType = 4
             LayerName = Foreground1
@@ -802,8 +802,8 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = 'Schueler'
             mmHeight = 5027
-            mmLeft = 66411
-            mmTop = 121949
+            mmLeft = 55298
+            mmTop = 103717
             mmWidth = 33338
             BandType = 4
             LayerName = Foreground1
@@ -836,9 +836,9 @@ object Report: TppReport
             Transparent = True
             WordWrap = True
             mmHeight = 30427
-            mmLeft = 28310
-            mmTop = 134384
-            mmWidth = 123032
+            mmLeft = 17198
+            mmTop = 116152
+            mmWidth = 123031
             BandType = 4
             LayerName = Foreground1
           end
@@ -991,64 +991,6 @@ object Report: TppReport
               object ppDesignLayers7: TppDesignLayers
                 object ppDesignLayer7: TppDesignLayer
                   UserName = 'Foreground6'
-                  LayerType = ltBanded
-                  Index = 0
-                end
-              end
-            end
-          end
-          object myDynamicLoadingSubReport1: TmyDynamicLoadingSubReport
-            UserName = 'DynamicLoadingSubReport1'
-            ExpandAll = False
-            NewPrintJob = False
-            OutlineSettings.CreateNode = True
-            ParentPrinterSetup = False
-            TraverseAllData = False
-            Filename = 'Zeugniskopf_AbsZ_2015ff.rtm'
-            DataPipelineName = 'EigeneSchule'
-            mmHeight = 5027
-            mmLeft = 0
-            mmTop = 0
-            mmWidth = 376000
-            BandType = 4
-            LayerName = Foreground1
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
-            object ppChildReport2: TppChildReport
-              AutoStop = False
-              DataPipeline = dmPipelines.EigeneSchule
-              PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Zeugnis_BGJ_Abschl.rtm'
-              PrinterSetup.Duplex = dpVertical
-              PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
-              PrinterSetup.SaveDeviceSettings = False
-              PrinterSetup.mmMarginBottom = 20000
-              PrinterSetup.mmMarginLeft = 22000
-              PrinterSetup.mmMarginRight = 22000
-              PrinterSetup.mmMarginTop = 20000
-              PrinterSetup.mmPaperHeight = 297000
-              PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
-              Template.Format = ftASCII
-              Units = utMillimeters
-              Version = '15.05'
-              mmColumnWidth = 210000
-              DataPipelineName = 'EigeneSchule'
-              object ppDetailBand9: TppDetailBand
-                Background1.Brush.Style = bsClear
-                Background2.Brush.Style = bsClear
-                PrintHeight = phDynamic
-                mmBottomOffset = 0
-                mmHeight = 10054
-                mmPrintPosition = 0
-              end
-              object ppDesignLayers8: TppDesignLayers
-                object ppDesignLayer8: TppDesignLayer
-                  UserName = 'Foreground7'
                   LayerType = ltBanded
                   Index = 0
                 end
@@ -1297,7 +1239,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 99484
+            mmTop = 74348
             mmWidth = 22754
             BandType = 4
             LayerName = Foreground1
@@ -1316,7 +1258,7 @@ object Report: TppReport
             DataPipelineName = 'plLernabschnitte'
             mmHeight = 4763
             mmLeft = 28310
-            mmTop = 99484
+            mmTop = 74348
             mmWidth = 88900
             BandType = 4
             LayerName = Foreground1
@@ -1579,7 +1521,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 26988
             mmLeft = 0
-            mmTop = 229923
+            mmTop = 199496
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1670,8 +1612,8 @@ object Report: TppReport
             Font.Style = []
             Transparent = True
             mmHeight = 4498
-            mmLeft = 146050
-            mmTop = 121949
+            mmLeft = 134938
+            mmTop = 103717
             mmWidth = 5292
             BandType = 4
             LayerName = Foreground1
@@ -1687,7 +1629,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 82021
+            mmTop = 56886
             mmWidth = 13494
             BandType = 4
             LayerName = Foreground1
@@ -1703,7 +1645,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4763
             mmLeft = 55298
-            mmTop = 82021
+            mmTop = 56886
             mmWidth = 33073
             BandType = 4
             LayerName = Foreground1
@@ -1719,7 +1661,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 90488
+            mmTop = 65352
             mmWidth = 26723
             BandType = 4
             LayerName = Foreground1
@@ -1733,10 +1675,10 @@ object Report: TppReport
             Font.Size = 11
             Font.Style = [fsBold]
             Transparent = True
-            mmHeight = 4762
+            mmHeight = 4763
             mmLeft = 31485
-            mmTop = 90488
-            mmWidth = 14553
+            mmTop = 65352
+            mmWidth = 14552
             BandType = 4
             LayerName = Foreground1
           end
@@ -1767,7 +1709,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 26458
             mmLeft = 0
-            mmTop = 199495
+            mmTop = 170921
             mmWidth = 160602
             BandType = 4
             LayerName = Foreground1
@@ -1775,6 +1717,61 @@ object Report: TppReport
             mmOverFlowOffset = 0
             mmStopPosition = 0
             mmMinHeight = 0
+          end
+          object ppLabel20: TppLabel
+            UserName = 'Label20'
+            Caption = 'Seite 1 des Zeugnisses f'#252'r'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Arial'
+            Font.Size = 11
+            Font.Style = []
+            Transparent = True
+            mmHeight = 4498
+            mmLeft = 0
+            mmTop = 5027
+            mmWidth = 45773
+            BandType = 4
+            LayerName = Foreground1
+          end
+          object ppDBText10: TppDBText
+            UserName = 'DBText10'
+            DataField = 'Anrede'
+            DataPipeline = dmPipelines.Schueler
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Arial'
+            Font.Size = 11
+            Font.Style = []
+            ParentDataPipeline = False
+            Transparent = True
+            DataPipelineName = 'Schueler'
+            mmHeight = 4498
+            mmLeft = 47361
+            mmTop = 5027
+            mmWidth = 12171
+            BandType = 4
+            LayerName = Foreground1
+          end
+          object ppDBText12: TppDBText
+            UserName = 'DBText12'
+            AutoSize = True
+            DataField = 'VornameName'
+            DataPipeline = dmPipelines.Schueler
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Arial'
+            Font.Size = 12
+            Font.Style = [fsBold]
+            ParentDataPipeline = False
+            Transparent = True
+            DataPipelineName = 'Schueler'
+            mmHeight = 5027
+            mmLeft = 62442
+            mmTop = 5027
+            mmWidth = 33338
+            BandType = 4
+            LayerName = Foreground1
           end
         end
         object raCodeModule1: TraCodeModule
@@ -1900,8 +1897,8 @@ object Report: TppReport
             2020202054657874203A3D2027486572726E27200D0A2020656C73650D0A2020
             202054657874203A3D202746726175273B20200D0A0D0A656E643B0D0A0D436F
             6D706F6E656E744E616D65060744425465787435094576656E744E616D650609
-            4F6E47657454657874074576656E7449440235084361726574506F7301021402
-            06000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D
+            4F6E47657454657874074576656E7449440235084361726574506F7301021002
+            08000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D
             6506104C6162656C33374F6E476574546578740B50726F6772616D5479706507
             0B747450726F63656475726506536F757263650CDE01000070726F6365647572
             65204C6162656C33374F6E476574546578742876617220546578743A20537472
@@ -1993,7 +1990,16 @@ object Report: TppReport
             202020202054657874203A3D202746726175273B0D0A656E643B0D0A0D436F6D
             706F6E656E744E616D65060744425465787438094576656E744E616D6506094F
             6E47657454657874074576656E7449440235084361726574506F730102050206
-            000000}
+            000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D65
+            061144425465787431304F6E476574546578740B50726F6772616D5479706507
+            0B747450726F63656475726506536F75726365069A70726F6365647572652044
+            425465787431304F6E476574546578742876617220546578743A20537472696E
+            67293B0D0A626567696E0D0A202069662053636875656C65725B274765736368
+            6C65636874275D203D2033207468656E0D0A2020202054657874203A3D202748
+            6572726E27200D0A2020656C73650D0A2020202054657874203A3D2027467261
+            75273B20200D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060844
+            42546578743130094576656E744E616D6506094F6E4765745465787407457665
+            6E7449440235084361726574506F730102050208000000}
         end
         object ppDesignLayers2: TppDesignLayers
           object ppDesignLayer2: TppDesignLayer
