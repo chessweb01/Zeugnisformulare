@@ -1521,7 +1521,7 @@ object Report: TppReport
               'ordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\'#39 +
               'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung Be' +
               'rufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - 3' +
-              '3 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'}'#13#10#0
+              '3 Nr.1.1) in der jeweils geltenden Fassung.\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True

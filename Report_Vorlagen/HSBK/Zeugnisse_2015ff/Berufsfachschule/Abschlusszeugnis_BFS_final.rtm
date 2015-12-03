@@ -1514,8 +1514,8 @@ object Report: TppReport
               'erufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - ' +
               '33 Nr.1.1) in der jeweils geltenden Fassung\par'#13#10'{\pntext\f1\'#39'B7' +
               '\tab}die Rahmenvereinbarung \'#39'fcber die Berufsfachschulen (Besch' +
-              'luss der Kultusministerkonferenz vom 17.10.2013) in der jeweils ' +
-              'geltenden Fassung\par'#13#10'}'#13#10#0
+              'luss der Kultusministerkonferenz vom 17.10.2013 in der jeweils g' +
+              'eltenden Fassung).\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True

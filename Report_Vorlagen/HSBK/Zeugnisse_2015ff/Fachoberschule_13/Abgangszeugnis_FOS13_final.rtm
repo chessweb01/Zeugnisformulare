@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_final.rtm'
+  PrinterSetup.DocumentName = 'Abgangszeugnis_FOS13_final.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -18,7 +18,7 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Fachoberschule_12\Abgangszeugnis_FOS12_final.rtm'
+    '_2015ff\Fachoberschule_13\Abgangszeugnis_FOS13_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -551,7 +551,6 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
-        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -762,14 +761,14 @@ object Report: TppReport
             76656E7449440218084361726574506F730102030203000001060F5472614576
             656E7448616E646C65720B50726F6772616D4E616D650610444254657874374F
             6E476574546578740B50726F6772616D54797065070B747450726F6365647572
-            6506536F75726365069E70726F63656475726520444254657874374F6E476574
+            6506536F7572636506A170726F63656475726520444254657874374F6E476574
             546578742876617220546578743A20537472696E67293B0D0A626567696E200D
             0A202069662028424B42657275667362657A6F67656E5B275A6575676E697362
             657A656963686E756E67275D203D2027456E676C697363682729207468656E0D
-            0A2020202054657874203A3D2054657874202B20272028423229273B0D0A0D0A
-            656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506074442546578743709
-            4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-            61726574506F730102190204000000}
+            0A2020202054657874203A3D2054657874202B2027202842322F433129273B0D
+            0A0D0A656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506074442546578
+            7437094576656E744E616D6506094F6E47657454657874074576656E74494402
+            35084361726574506F7301021C0204000000}
         end
         object ppDesignLayers4: TppDesignLayers
           object ppDesignLayer4: TppDesignLayer
@@ -1497,7 +1496,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_final.rtm'
+        PrinterSetup.DocumentName = 'Abgangszeugnis_FOS13_final.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -1894,9 +1893,9 @@ object Report: TppReport
         #39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung B' +
         'erufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - ' +
         '33 Nr.1.1) \par'#13#10'{\pntext\f1\'#39'B7\tab}die Rahmenvereinbarung \'#39'fc' +
-        'ber die Fachoberschulen (Beschluss der Kultusministerkonferenz v' +
-        'om 16. Dezember 2004 in der jeweils geltenden Fassung).\par'#13#10'}'#13#10 +
-        #0
+        'ber die Berufsoberschulen (Beschluss der Kultusministerkonferenz' +
+        ' vom 25. November 1976 in der jeweils geltenden Fassung).\par'#13#10'}' +
+        #13#10#0
       RemoveEmptyLines = False
       Transparent = True
       mmHeight = 17463
@@ -2110,7 +2109,7 @@ object Report: TppReport
       end
       object ppLabel31: TppLabel
         UserName = 'Label31'
-        Caption = 'Fachoberschule Klasse 12B'
+        Caption = 'Fachoberschule Klasse 13'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2120,7 +2119,7 @@ object Report: TppReport
         mmHeight = 4234
         mmLeft = 35454
         mmTop = 6085
-        mmWidth = 45773
+        mmWidth = 43392
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2431,12 +2430,12 @@ object Report: TppReport
       696E0D0A2020206966202853636875656C65725B2747657363686C6563687427
       5D3D3329207468656E0D0A20202020202054657874203A3D2027457220776172
       207A756C65747A7420536368C3BC6C657220646572204A61687267616E677373
-      747566652031322E27200D0A202020656C73650D0A2020202020205465787420
+      747566652031332E27200D0A202020656C73650D0A2020202020205465787420
       3A3D202753696520776172207A756C65747A7420536368C3BC6C6572696E2064
-      6572204A61687267616E677373747566652031322E273B0D0A0D0A656E643B0D
+      6572204A61687267616E677373747566652031332E273B0D0A0D0A656E643B0D
       0A0D436F6D706F6E656E744E616D6506064C6162656C32094576656E744E616D
       6506094F6E47657454657874074576656E7449440235084361726574506F7301
-      02410206000001060F5472614576656E7448616E646C65720B50726F6772616D
+      023F0206000001060F5472614576656E7448616E646C65720B50726F6772616D
       4E616D650610444254657874324F6E476574546578740B50726F6772616D5479
       7065070B747450726F63656475726506536F75726365067D70726F6365647572
       6520444254657874324F6E476574546578742876617220546578743A20537472
