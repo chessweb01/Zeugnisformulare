@@ -277,7 +277,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsuebergreifend'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 6445
       mmWidth = 179917
       BandType = 4
@@ -527,7 +527,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsbezogen'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 11118
       mmWidth = 179917
       BandType = 4
@@ -791,7 +791,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKDifferenzierung'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 15880
       mmWidth = 179917
       BandType = 4
@@ -984,7 +984,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport6
       TraverseAllData = False
       mmHeight = 5292
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 25670
       mmWidth = 180711
       BandType = 4
@@ -1198,7 +1198,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 30697
       mmWidth = 179652
       BandType = 4
@@ -1409,7 +1409,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 20908
       mmWidth = 179652
       BandType = 4
@@ -1486,7 +1486,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport2
       TraverseAllData = False
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 35190
       mmWidth = 179652
       BandType = 4
@@ -1599,7 +1599,7 @@ object Report: TppReport
       Font.Style = []
       Transparent = True
       mmHeight = 4233
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 1852
       mmWidth = 30692
       BandType = 4
@@ -2473,6 +2473,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

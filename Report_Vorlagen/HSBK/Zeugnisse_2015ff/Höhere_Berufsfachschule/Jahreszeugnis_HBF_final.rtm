@@ -16,9 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\H'#246'here_Berufsfachschule\Jahreszeugnis_HBF_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\H''#246''here_Berufsfachschule\Jahreszeugnis_HBF_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -276,7 +274,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsuebergreifend'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 6180
       mmWidth = 179917
       BandType = 4
@@ -525,7 +523,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsbezogen'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 10853
       mmWidth = 179917
       BandType = 4
@@ -778,7 +776,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKDifferenzierung'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 15615
       mmWidth = 179917
       BandType = 4
@@ -971,7 +969,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport6
       TraverseAllData = False
       mmHeight = 5292
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 25405
       mmWidth = 180711
       BandType = 4
@@ -1185,7 +1183,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 30432
       mmWidth = 179652
       BandType = 4
@@ -1396,7 +1394,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 20643
       mmWidth = 179652
       BandType = 4
@@ -1627,7 +1625,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport2
       TraverseAllData = False
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 35190
       mmWidth = 179652
       BandType = 4
@@ -1741,7 +1739,7 @@ object Report: TppReport
       Font.Style = []
       Transparent = True
       mmHeight = 4233
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 1588
       mmWidth = 30692
       BandType = 4

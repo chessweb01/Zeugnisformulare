@@ -276,7 +276,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsuebergreifend'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 6180
       mmWidth = 179917
       BandType = 4
@@ -529,7 +529,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKBerufsbezogen'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 9260
       mmWidth = 179917
       BandType = 4
@@ -771,7 +771,7 @@ object Report: TppReport
             20546578743A20537472696E67293B0D0A626567696E0D0A202069662028424B
             42657275667362657A6F67656E5B275A6575676E697362657A656963686E756E
             67275D203D2027456E676C697363682729207468656E0D0A2020202054657874
-            203A3D2054657874202B20272028423129273B0D0A0D0A656E643B0D0A0D436F
+            203A3D2054657874202B20272028413229273B0D0A0D0A656E643B0D0A0D436F
             6D706F6E656E744E616D65060744425465787437094576656E744E616D650609
             4F6E47657454657874074576656E7449440235084361726574506F7301021C02
             04000000}
@@ -796,7 +796,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plBKDifferenzierung'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 12700
       mmWidth = 179917
       BandType = 4
@@ -989,7 +989,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport6
       TraverseAllData = False
       mmHeight = 5292
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 20373
       mmWidth = 180711
       BandType = 4
@@ -1257,7 +1257,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 24342
       mmWidth = 179652
       BandType = 4
@@ -1468,7 +1468,7 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 16404
       mmWidth = 179652
       BandType = 4
@@ -1640,7 +1640,7 @@ object Report: TppReport
       ShiftRelativeTo = ppSubReport2
       TraverseAllData = False
       mmHeight = 5027
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 28840
       mmWidth = 179652
       BandType = 4
@@ -1753,7 +1753,7 @@ object Report: TppReport
       Font.Style = []
       Transparent = True
       mmHeight = 4233
-      mmLeft = 1323
+      mmLeft = 0
       mmTop = 1588
       mmWidth = 30692
       BandType = 4
