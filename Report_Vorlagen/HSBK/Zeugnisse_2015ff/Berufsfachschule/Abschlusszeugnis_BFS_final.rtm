@@ -1701,9 +1701,9 @@ object Report: TppReport
               'n Niveaustufe des "Europ\'#39'e4ischen Referenzrahmens f\'#39'fcr Sprach' +
               'en: Lernen, Lehren, Beurteilen" stattgefunden. Sind zwei Referen' +
               'zniveaus ausgewiesen, ist das niedrigere in vollem Umfang, das h' +
-              '\'#39'f6here in Anteilen erreicht.Bei mindestens ausreichenden Leist' +
-              'ungen wird der sprachliche Kompetenzerwerb auf diesem Niveau bes' +
-              'cheinigt.\cf0\par'#13#10'}'#13#10#0
+              '\'#39'f6here in Anteilen erreicht. Bei mindestens ausreichenden Leis' +
+              'tungen wird der sprachliche Kompetenzerwerb auf diesem Niveau be' +
+              'scheinigt.\cf0\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             Transparent = True

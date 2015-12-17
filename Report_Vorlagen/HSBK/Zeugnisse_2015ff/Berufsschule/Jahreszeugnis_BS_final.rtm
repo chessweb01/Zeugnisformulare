@@ -2081,12 +2081,12 @@ object Report: TppReport
         'rn angegebenen Niveaustufe des "Europ\'#39'e4ischen Referenzrahmens ' +
         'f\'#39'fcr Sprachen: Lernen, Lehren, Beurteilen" stattgefunden. Sind' +
         ' zwei Referenzniveaus ausgewiesen, ist das niedrigere in vollem ' +
-        'Umfang, das h\'#39'f6here in Anteilen erreicht.Bei mindestens ausrei' +
-        'chenden Leistungen wird der sprachliche Kompetenzerwerb auf dies' +
-        'em Niveau bescheinigt.\par'#13#10'\par'#13#10'Die F\'#39'e4cher im berufsbezogen' +
-        'en Lernbereich erfassen die in der Anlage aufgef\'#39'fchrten Lernfe' +
-        'lder. In der Anlage werden die Lernfelder den F\'#39'e4chern nach Au' +
-        'sbildungsjahr zugeordnet.\f1\par'#13#10'}'#13#10#0
+        'Umfang, das h\'#39'f6here in Anteilen erreicht. Bei mindestens ausre' +
+        'ichenden Leistungen wird der sprachliche Kompetenzerwerb auf die' +
+        'sem Niveau bescheinigt.\par'#13#10'\par'#13#10'Die F\'#39'e4cher im berufsbezoge' +
+        'nen Lernbereich erfassen die in der Anlage aufgef\'#39'fchrten Lernf' +
+        'elder. In der Anlage werden die Lernfelder den F\'#39'e4chern nach A' +
+        'usbildungsjahr zugeordnet.\f1\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Transparent = True
       mmHeight = 31750
@@ -2439,6 +2439,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

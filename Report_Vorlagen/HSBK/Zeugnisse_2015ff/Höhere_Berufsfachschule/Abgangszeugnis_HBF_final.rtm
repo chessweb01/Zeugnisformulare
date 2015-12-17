@@ -16,9 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\H'#246'here_Berufsfachschule\Abgangszeugnis_HBF_final.rtm'
+  Template.FileName = '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\H''#246''here_Berufsfachschule\Abgangszeugnis_HBF_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -1931,9 +1929,9 @@ object Report: TppReport
         'Niveaustufe des "Europ\'#39'e4ischen Referenzrahmens f\'#39'fcr Sprachen' +
         ': Lernen, Lehren, Beurteilen" stattgefunden. Sind zwei Referenzn' +
         'iveaus ausgewiesen, ist das niedrigere in vollem Umfang, das h\'#39 +
-        'f6here in Anteilen erreicht.Bei mindestens ausreichenden Leistun' +
-        'gen wird der sprachliche Kompetenzerwerb auf diesem Niveau besch' +
-        'einigt.\f1\par'#13#10'}'#13#10#0
+        'f6here in Anteilen erreicht. Bei mindestens ausreichenden Leistu' +
+        'ngen wird der sprachliche Kompetenzerwerb auf diesem Niveau besc' +
+        'heinigt.\f1\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Transparent = True
       mmHeight = 15610
@@ -2437,6 +2435,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
