@@ -1083,7 +1083,7 @@ object Report: TppReport
           end
           object ppLabel11: TppLabel
             UserName = 'Label11'
-            Caption = 'Bemerkungen:'
+            Caption = 'Zus'#228'tzliche Unterrichtsveranstaltungen und Bemerkungen:'
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clWindowText
             Font.Name = 'Arial'
@@ -1093,7 +1093,7 @@ object Report: TppReport
             mmHeight = 4233
             mmLeft = 529
             mmTop = 3175
-            mmWidth = 22225
+            mmWidth = 88900
             BandType = 4
             LayerName = Foreground5
           end
@@ -2473,6 +2473,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
