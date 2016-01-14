@@ -2026,7 +2026,6 @@ object Report: TppReport
         Font.Name = 'Arial'
         Font.Size = 10
         Font.Style = []
-        TextAlignment = taRightJustified
         Transparent = True
         mmHeight = 4234
         mmLeft = 0

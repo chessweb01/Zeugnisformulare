@@ -8,7 +8,7 @@ object Report: TppReport
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'Custom'
-  PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+  PrinterSetup.PrinterName = 'HP LaserJet P2035'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 20000
   PrinterSetup.mmMarginLeft = 22000
@@ -18,7 +18,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 420000
   PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
-  Template.FileName = 'C:\Users\admin\Desktop\Abschlusszeugnis_BS_final.rtm'
+  Template.FileName = 
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Berufsschule\Abschlusszeugnis_BS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -101,7 +103,7 @@ object Report: TppReport
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'Custom'
-        PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+        PrinterSetup.PrinterName = 'HP LaserJet P2035'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 20000
         PrinterSetup.mmMarginLeft = 22000
@@ -173,7 +175,7 @@ object Report: TppReport
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'Custom'
-              PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -331,7 +333,7 @@ object Report: TppReport
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'Custom'
-              PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -507,7 +509,7 @@ object Report: TppReport
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'Custom'
-              PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -626,9 +628,9 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = 'Schueler'
             mmHeight = 5027
-            mmLeft = 9260
+            mmLeft = 13229
             mmTop = 20645
-            mmWidth = 33338
+            mmWidth = 36248
             BandType = 4
             LayerName = Foreground1
           end
@@ -680,9 +682,9 @@ object Report: TppReport
             TextAlignment = taCentered
             Transparent = True
             mmHeight = 4498
-            mmLeft = 59002
+            mmLeft = 64029
             mmTop = 26466
-            mmWidth = 2910
+            mmWidth = 5821
             BandType = 4
             LayerName = Foreground1
           end
@@ -700,9 +702,9 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = 'Schueler'
             mmHeight = 4763
-            mmLeft = 63500
+            mmLeft = 72496
             mmTop = 26466
-            mmWidth = 22754
+            mmWidth = 69850
             BandType = 4
             LayerName = Foreground1
           end
@@ -738,9 +740,9 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = 'Schueler'
             mmHeight = 4763
-            mmLeft = 21960
+            mmLeft = 17198
             mmTop = 32551
-            mmWidth = 29633
+            mmWidth = 40746
             BandType = 4
             LayerName = Foreground1
           end
@@ -754,9 +756,9 @@ object Report: TppReport
             Font.Style = []
             Transparent = True
             mmHeight = 4498
-            mmLeft = 59002
+            mmLeft = 65352
             mmTop = 32551
-            mmWidth = 65352
+            mmWidth = 76994
             BandType = 4
             LayerName = Foreground1
           end
@@ -802,7 +804,7 @@ object Report: TppReport
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'Custom'
-              PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -1230,7 +1232,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 3704
             mmLeft = 223309
-            mmTop = 195263
+            mmTop = 189168
             mmWidth = 21960
             BandType = 4
             LayerName = Foreground1
@@ -1275,7 +1277,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 3704
             mmLeft = 320940
-            mmTop = 195263
+            mmTop = 189168
             mmWidth = 11377
             BandType = 4
             LayerName = Foreground1
@@ -1653,8 +1655,9 @@ object Report: TppReport
               'en dem \b Niveau 4\b0  zugeordnet.\par'#13#10'\par'#13#10'\b\f1 Hinweis:\b0\' +
               'par'#13#10'\f0 Bei Vorlage des Nachweises \'#39'fcber den Berufsabschluss ' +
               'und entsprechender Englisch- / Fremdsprachenkenntnisse wird Ihne' +
-              'n eine Bescheinigung \'#39'fcber die Zuerkennnung der Fachoberschulr' +
-              'eife ausgestellt.\f1\par'#13#10'\par'#13#10'\b\par'#13#10'}'#13#10#0
+              'n gem\'#39'e4\'#39'df \'#39'a79 Absatz 4 Anlage A APO-BK eine Bescheinigung ' +
+              '\'#39'fcber die Zuerkennnung der Fachoberschulreife ausgestellt.\f1\' +
+              'par'#13#10'\par'#13#10'\b\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 53181
@@ -1687,10 +1690,10 @@ object Report: TppReport
               'en dem \b Niveau 4\b0  zugeordnet.\par'#13#10'\par'#13#10'\b\f1 Hinweis:\b0\' +
               'par'#13#10'\f0 Bei Vorlage des Nachweises \'#39'fcber den Berufsabschluss ' +
               'und entsprechender Englisch- / Fremdsprachenkenntnisse wird Ihne' +
-              'n eine Bescheinigung \'#39'fcber die Zuerkennnung der Fachoberschulr' +
-              'eife mit der Berechtigung zum Besuch der Einf\'#39'fchrungs- bzw. Qu' +
-              'alifikationsphase der gymnasialen Oberstufe ausgestellt.\f1\par'#13 +
-              #10'\par'#13#10'}'#13#10#0
+              'n gem\'#39'e4\'#39'df \'#39'a79 Absatz 4 Anlage A APO-BK eine Bescheinigung ' +
+              '\'#39'fcber die Zuerkennnung der Fachoberschulreife mit der Berechti' +
+              'gung zum Besuch der Einf\'#39'fchrungs- bzw. Qualifikationsphase der' +
+              ' gymnasialen Oberstufe ausgestellt.\f1\par'#13#10'\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 54240
@@ -1978,7 +1981,7 @@ object Report: TppReport
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'Custom'
-        PrinterSetup.PrinterName = 'HP Officejet Pro 8610 (Netzwerk)'
+        PrinterSetup.PrinterName = 'HP LaserJet P2035'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 20000
         PrinterSetup.mmMarginLeft = 22000
