@@ -17,7 +17,7 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
     '_2015ff\Berufsschule\Abgangszeugnis_BS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
@@ -1974,9 +1974,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 50271
+        mmLeft = 65088
         mmTop = 265
-        mmWidth = 29369
+        mmWidth = 53975
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2013,7 +2013,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 25135
+        mmWidth = 48419
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2060,7 +2060,7 @@ object Report: TppReport
         mmHeight = 4498
         mmLeft = 14817
         mmTop = 7409
-        mmWidth = 28046
+        mmWidth = 36248
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2075,9 +2075,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 43921
+        mmLeft = 50271
         mmTop = 7408
-        mmWidth = 58208
+        mmWidth = 64823
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
