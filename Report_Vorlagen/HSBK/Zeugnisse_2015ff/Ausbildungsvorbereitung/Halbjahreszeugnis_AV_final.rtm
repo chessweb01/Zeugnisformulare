@@ -16,7 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\SERVER-V\Schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
+  Template.FileName = '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2046,9 +2046,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 39688
+        mmLeft = 36777
         mmTop = 6349
-        mmWidth = 10848
+        mmWidth = 13229
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2226,7 +2226,7 @@ object Report: TppReport
       end
       object ppLabel32: TppLabel
         UserName = 'Label32'
-        Caption = 'Technik/Naturwissenschaften'
+        Caption = 'Technik / Naturwissenschaften'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2234,9 +2234,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 25665
+        mmLeft = 24342
         mmTop = 17198
-        mmWidth = 48683
+        mmWidth = 50800
         BandType = 3
         GroupNo = 0
         LayerName = Foreground

@@ -17,7 +17,7 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
     '_2015ff\Ausbildungsvorbereitung\Abgangszeugnis_AV_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
@@ -1975,9 +1975,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 135202
+        mmLeft = 139171
         mmTop = 11906
-        mmWidth = 34131
+        mmWidth = 36513
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2084,9 +2084,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 42863
+        mmLeft = 43656
         mmTop = 11906
-        mmWidth = 23548
+        mmWidth = 22754
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2101,7 +2101,7 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 117740
+        mmLeft = 121973
         mmTop = 11906
         mmWidth = 15081
         BandType = 3
@@ -2138,17 +2138,17 @@ object Report: TppReport
       end
       object ppLabel32: TppLabel
         UserName = 'Label32'
-        Caption = 'Technik/Naturwissenschaften'
+        Caption = 'Technik / Naturwissenschaften'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
         Font.Size = 10
         Font.Style = [fsBold]
         Transparent = True
-        mmHeight = 4233
-        mmLeft = 67733
+        mmHeight = 4234
+        mmLeft = 68263
         mmTop = 11906
-        mmWidth = 48683
+        mmWidth = 52123
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2385,6 +2385,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
