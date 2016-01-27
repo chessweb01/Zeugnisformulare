@@ -17,7 +17,7 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
     '_2015ff\Fachoberschule_13\Halbjahreszeugnis_FOS13_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
@@ -2040,9 +2040,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 34396
+        mmLeft = 35983
         mmTop = 6350
-        mmWidth = 10848
+        mmWidth = 12171
         BandType = 3
         GroupNo = 0
         LayerName = Foreground

@@ -16,7 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2007,9 +2007,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 94456
+        mmLeft = 99748
         mmTop = 17198
-        mmWidth = 56886
+        mmWidth = 56356
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2024,9 +2024,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 50271
+        mmLeft = 69850
         mmTop = 265
-        mmWidth = 29369
+        mmWidth = 45244
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2085,7 +2085,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 25135
+        mmWidth = 51065
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2172,9 +2172,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4234
-        mmLeft = 76729
+        mmLeft = 80963
         mmTop = 17198
-        mmWidth = 15082
+        mmWidth = 15346
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2234,9 +2234,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 24342
+        mmLeft = 27252
         mmTop = 17198
-        mmWidth = 50800
+        mmWidth = 50006
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2461,6 +2461,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

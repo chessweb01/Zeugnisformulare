@@ -2037,7 +2037,7 @@ object Report: TppReport
       end
       object ppLabel13: TppLabel
         UserName = 'Label6'
-        Caption = 'Geburtstag und Ort'
+        Caption = 'Geburtstag und  Ort'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2045,9 +2045,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 50271
+        mmLeft = 65088
         mmTop = 265
-        mmWidth = 29369
+        mmWidth = 41275
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2084,7 +2084,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 25135
+        mmWidth = 44186
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2144,9 +2144,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 24871
+        mmLeft = 26194
         mmTop = 13229
-        mmWidth = 13229
+        mmWidth = 18785
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2403,6 +2403,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

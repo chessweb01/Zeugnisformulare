@@ -16,7 +16,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Berufsfachschule\Halbjahreszeugnis_BFS_final.rtm'
+  Template.FileName = 
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Berufsfachschule\Halbjahreszeugnis_BFS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2044,9 +2046,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 50271
+        mmLeft = 67998
         mmTop = 265
-        mmWidth = 29369
+        mmWidth = 51065
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2066,9 +2068,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 34131
+        mmLeft = 35983
         mmTop = 6350
-        mmWidth = 10848
+        mmWidth = 11377
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2105,7 +2107,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 25135
+        mmWidth = 42598
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2122,7 +2124,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 0
         mmTop = 6349
-        mmWidth = 10054
+        mmWidth = 25665
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
