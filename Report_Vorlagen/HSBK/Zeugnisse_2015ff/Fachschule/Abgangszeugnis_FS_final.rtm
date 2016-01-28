@@ -1400,8 +1400,8 @@ object Report: TppReport
       TraverseAllData = False
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 5027
-      mmLeft = 1323
-      mmTop = 15079
+      mmLeft = 0
+      mmTop = 15346
       mmWidth = 179652
       BandType = 4
       LayerName = Foreground
@@ -1858,15 +1858,17 @@ object Report: TppReport
       RichText = 
         '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
         'rset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}'#13#10'\viewkind4\uc1\pard\' +
-        'fs16 Dem Zeugnis liegt zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}{' +
-        '\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ver' +
-        'ordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\'#39 +
-        'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung Be' +
-        'rufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - 3' +
-        '3 Nr.1.1).\par'#13#10'}'#13#10#0
+        'fs16 Dem Zeugnis liegen zugrunde:\par'#13#10'\pard{\pntext\f1\'#39'B7\tab}' +
+        '{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'#39'B7}}\fi-200\li200 die Ve' +
+        'rordnung \'#39'fcber die Ausbildung und Pr\'#39'fcfung in den Bildungsg\' +
+        #39'e4ngen des Berufskollegs (Ausbildungs- und Pr\'#39'fcfungsordnung B' +
+        'erufskolleg - APO-BK) vom 26. Mai 1999 (SGV. NRW. 223/BASS 13 - ' +
+        '33 Nr.1.1),\par'#13#10'{\pntext\f1\'#39'B7\tab}Die Vereinbarung \'#39'fcber Fa' +
+        'chschulen (Beschluss der Kultusministerkonferenz vom 7. Novemver' +
+        ' 2002 in der jeweils geltenden Fassung).\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Transparent = True
-      mmHeight = 14817
+      mmHeight = 16933
       mmLeft = 0
       mmTop = 61648
       mmWidth = 181240

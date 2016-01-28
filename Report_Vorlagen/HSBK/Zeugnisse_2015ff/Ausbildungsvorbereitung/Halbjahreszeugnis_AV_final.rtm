@@ -16,7 +16,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
+  Template.FileName = 
+    '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Ausbildungsvorbereitung\Halbjahreszeugnis_AV_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2024,9 +2026,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 69850
+        mmLeft = 61913
         mmTop = 265
-        mmWidth = 45244
+        mmWidth = 98954
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2085,7 +2087,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 51065
+        mmWidth = 44186
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2461,6 +2463,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
