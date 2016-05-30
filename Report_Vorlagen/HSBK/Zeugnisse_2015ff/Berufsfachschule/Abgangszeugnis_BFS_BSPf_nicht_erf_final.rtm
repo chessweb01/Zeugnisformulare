@@ -16,7 +16,10 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\SERVER-V\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Berufsfachschule\Abgangszeugnis_BFS_BSPf_nicht_erf_final.rtm'
+  Template.FileName = 
+    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Berufsfachschule\Abgangszeugnis_BFS_BSPf_nicht_erf_final' +
+    '.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -1685,10 +1688,9 @@ object Report: TppReport
       Font.Style = []
       TextAlignment = taCentered
       Transparent = True
-      Visible = False
       mmHeight = 3175
       mmLeft = 0
-      mmTop = 35188
+      mmTop = 32279
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -1851,26 +1853,6 @@ object Report: TppReport
       mmLeft = 53446
       mmTop = 32278
       mmWidth = 74613
-      BandType = 8
-      LayerName = Foreground
-    end
-    object ppDBText17: TppDBText
-      UserName = 'DBText17'
-      DataField = 'Schulleiter'
-      DataPipeline = dmPipelines.EigeneSchule
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Name = 'Arial'
-      Font.Size = 8
-      Font.Style = []
-      ParentDataPipeline = False
-      TextAlignment = taCentered
-      Transparent = True
-      DataPipelineName = 'EigeneSchule'
-      mmHeight = 3175
-      mmLeft = 0
-      mmTop = 32278
-      mmWidth = 50006
       BandType = 8
       LayerName = Foreground
     end
@@ -2399,7 +2381,25 @@ object Report: TppReport
       757362696C6465722F696E273B0D0A202020202020656E643B0D0A202020200D
       0A656E643B0D0A0D436F6D706F6E656E744E616D6506074C6162656C32310945
       76656E744E616D6506074F6E5072696E74074576656E74494402200843617265
-      74506F730102050210000000}
+      74506F730102050210000001060F5472614576656E7448616E646C65720B5072
+      6F6772616D4E616D6506104C6162656C32334F6E476574546578740B50726F67
+      72616D54797065070B747450726F63656475726506536F757263650C9E010000
+      70726F636564757265204C6162656C32334F6E47657454657874287661722054
+      6578743A20537472696E67293B0D0A626567696E0D0A2020696620456967656E
+      65536368756C655B27536368756C6C656974657247657363686C65636874275D
+      203D2033207468656E2020202020202020200D0A2020202054657874203A3D20
+      456967656E65536368756C655B27536368756C6C65697465724E616D65275D20
+      2B20272C2027202B20456967656E65536368756C655B27536368756C6C656974
+      6572416D747362657A275D202B2027202D20536368756C6C6569746572270D0A
+      2020656C73650D0A2020202054657874203A3D20456967656E65536368756C65
+      5B27536368756C6C65697465724E616D65275D202B20272C2027202B20456967
+      656E65536368756C655B27536368756C6C6569746572416D747362657A275D20
+      2B2027202D20536368756C6C6569746572696E273B0D0A202020202020202020
+      2020202020202020202020202020202020202020202020202020202020202020
+      202020202020202020200D0A656E643B2020202020202020202020200D0A0D43
+      6F6D706F6E656E744E616D6506074C6162656C3233094576656E744E616D6506
+      094F6E47657454657874074576656E7449440235084361726574506F73010211
+      0208000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer
@@ -2408,6 +2408,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
