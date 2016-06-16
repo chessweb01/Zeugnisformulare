@@ -2027,9 +2027,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 65088
+        mmLeft = 53707
         mmTop = 265
-        mmWidth = 53975
+        mmWidth = 62971
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2066,7 +2066,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 12965
         mmTop = 265
-        mmWidth = 48419
+        mmWidth = 41010
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2148,6 +2148,27 @@ object Report: TppReport
         mmLeft = 0
         mmTop = 14553
         mmWidth = 29104
+        BandType = 3
+        GroupNo = 0
+        LayerName = Foreground
+      end
+      object ppDBText17: TppDBText
+        UserName = 'DBText17'
+        DataField = 'Jahr'
+        DataPipeline = dmPipelines.plLernabschnitte
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 8
+        Font.Style = []
+        ParentDataPipeline = False
+        TextAlignment = taRightJustified
+        Transparent = True
+        DataPipelineName = 'plLernabschnitte'
+        mmHeight = 4498
+        mmLeft = 121973
+        mmTop = 265
+        mmWidth = 59002
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2342,7 +2363,20 @@ object Report: TppReport
       202020202020202020202020202020202020202020202020200D0A0D436F6D70
       6F6E656E744E616D6506074C6162656C3233094576656E744E616D6506094F6E
       47657454657874074576656E7449440235084361726574506F73010211020800
-      0000}
+      0001060F5472614576656E7448616E646C65720B50726F6772616D4E616D6506
+      1144425465787431374F6E476574546578740B50726F6772616D54797065070B
+      747450726F63656475726506536F757263650C2001000070726F636564757265
+      2044425465787431374F6E476574546578742876617220546578743A20537472
+      696E67293B0D0A7661720D0A206A616872203A696E74656765723B0D0A626567
+      696E0D0A7B20206A616872203A3D2053636875656C65725B27416B7453636875
+      6C6A616872275D3B7D0D0A20206A616872203A3D204C65726E61627363686E69
+      7474655B274A616872275D3B0D0A202054657874203A3D2027536368756C6A61
+      68722027202B20496E74546F537472286A61687229202B20272F27202B20496E
+      74546F537472286A6168722B31293B0D0A202054657874203A3D20274B6C6173
+      73652027202B204C65726E61627363686E697474655B274B6C61737365275D20
+      2B2027202027202B20546578743B200D0A656E643B0D0A0D436F6D706F6E656E
+      744E616D6506084442546578743137094576656E744E616D6506094F6E476574
+      54657874074576656E7449440235084361726574506F730102050209000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer
@@ -2351,6 +2385,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
