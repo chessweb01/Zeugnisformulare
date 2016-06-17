@@ -16,7 +16,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\SERVER-V\Schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Berufsschule\Abgangszeugnis_BS_final.rtm'
+  Template.FileName = 
+    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Berufsschule\Abgangszeugnis_BS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -1992,7 +1994,7 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 25135
+      mmHeight = 26723
       mmPrintPosition = 0
       object ppDBText1: TppDBText
         UserName = 'DBText1'
@@ -2009,7 +2011,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
         mmLeft = 46302
-        mmTop = 14552
+        mmTop = 19322
         mmWidth = 56886
         BandType = 3
         GroupNo = 0
@@ -2026,7 +2028,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 65088
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 55033
         BandType = 3
         GroupNo = 0
@@ -2043,7 +2045,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 10054
         BandType = 3
         GroupNo = 0
@@ -2063,7 +2065,7 @@ object Report: TppReport
         DataPipelineName = 'Schueler'
         mmHeight = 4233
         mmLeft = 12965
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 45773
         BandType = 3
         GroupNo = 0
@@ -2080,7 +2082,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 7409
+        mmTop = 12179
         mmWidth = 12435
         BandType = 3
         GroupNo = 0
@@ -2091,7 +2093,7 @@ object Report: TppReport
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 21163
+        mmTop = 25933
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2111,7 +2113,7 @@ object Report: TppReport
         DataPipelineName = 'Schueler'
         mmHeight = 4234
         mmLeft = 18256
-        mmTop = 7408
+        mmTop = 12178
         mmWidth = 27782
         BandType = 3
         GroupNo = 0
@@ -2128,7 +2130,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 56092
-        mmTop = 7408
+        mmTop = 12178
         mmWidth = 69056
         BandType = 3
         GroupNo = 0
@@ -2145,7 +2147,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 0
-        mmTop = 14553
+        mmTop = 19323
         mmWidth = 29104
         BandType = 3
         GroupNo = 0

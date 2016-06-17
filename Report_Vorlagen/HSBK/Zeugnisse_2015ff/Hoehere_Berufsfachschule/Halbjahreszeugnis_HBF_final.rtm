@@ -1993,7 +1993,7 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 26458
+      mmHeight = 30427
       mmPrintPosition = 0
       object ppDBText1: TppDBText
         UserName = 'DBText1'
@@ -2010,7 +2010,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
         mmLeft = 35722
-        mmTop = 7144
+        mmTop = 11914
         mmWidth = 56886
         BandType = 3
         GroupNo = 0
@@ -2027,7 +2027,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 60053
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 41275
         BandType = 3
         GroupNo = 0
@@ -2044,7 +2044,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 10054
         BandType = 3
         GroupNo = 0
@@ -2064,7 +2064,7 @@ object Report: TppReport
         DataPipelineName = 'Schueler'
         mmHeight = 4233
         mmLeft = 12965
-        mmTop = 265
+        mmTop = 5035
         mmWidth = 44186
         BandType = 3
         GroupNo = 0
@@ -2081,7 +2081,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 13229
+        mmTop = 17999
         mmWidth = 23548
         BandType = 3
         GroupNo = 0
@@ -2098,7 +2098,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 7144
+        mmTop = 11914
         mmWidth = 33073
         BandType = 3
         GroupNo = 0
@@ -2109,7 +2109,7 @@ object Report: TppReport
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 24608
+        mmTop = 29369
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2126,7 +2126,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 26194
-        mmTop = 13229
+        mmTop = 17999
         mmWidth = 18785
         BandType = 3
         GroupNo = 0
@@ -2143,7 +2143,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 19050
+        mmTop = 23820
         mmWidth = 19050
         BandType = 3
         GroupNo = 0
@@ -2163,7 +2163,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4498
         mmLeft = 20902
-        mmTop = 19050
+        mmTop = 23820
         mmWidth = 32808
         BandType = 3
         GroupNo = 0
@@ -2180,7 +2180,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 56092
-        mmTop = 19050
+        mmTop = 23820
         mmWidth = 13229
         BandType = 3
         GroupNo = 0
@@ -2429,6 +2429,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

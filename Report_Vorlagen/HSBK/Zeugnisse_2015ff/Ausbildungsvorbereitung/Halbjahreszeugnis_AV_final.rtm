@@ -74,7 +74,7 @@ object Report: TppReport
     Background.Brush.Style = bsClear
     PrintHeight = phDynamic
     mmBottomOffset = 0
-    mmHeight = 41540
+    mmHeight = 46038
     mmPrintPosition = 0
     object ppDBText12: TppDBText
       UserName = 'DBText12'
@@ -101,7 +101,7 @@ object Report: TppReport
       Weight = 1.500000000000000000
       mmHeight = 4498
       mmLeft = 529
-      mmTop = 41010
+      mmTop = 41540
       mmWidth = 182298
       BandType = 0
       LayerName = Foreground
@@ -1972,7 +1972,7 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 24342
+      mmHeight = 30163
       mmPrintPosition = 0
       object ppDBText1: TppDBText
         UserName = 'DBText1'
@@ -1989,7 +1989,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
         mmLeft = 99748
-        mmTop = 17198
+        mmTop = 22498
         mmWidth = 56356
         BandType = 3
         GroupNo = 0
@@ -2006,7 +2006,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 58733
-        mmTop = 265
+        mmTop = 5565
         mmWidth = 57679
         BandType = 3
         GroupNo = 0
@@ -2028,7 +2028,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
         mmLeft = 36777
-        mmTop = 6349
+        mmTop = 11649
         mmWidth = 13229
         BandType = 3
         GroupNo = 0
@@ -2045,7 +2045,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 265
+        mmTop = 5565
         mmWidth = 10054
         BandType = 3
         GroupNo = 0
@@ -2065,7 +2065,7 @@ object Report: TppReport
         DataPipelineName = 'Schueler'
         mmHeight = 4233
         mmLeft = 12965
-        mmTop = 265
+        mmTop = 5565
         mmWidth = 44186
         BandType = 3
         GroupNo = 0
@@ -2082,7 +2082,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 6349
+        mmTop = 11649
         mmWidth = 10054
         BandType = 3
         GroupNo = 0
@@ -2100,7 +2100,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 56092
-        mmTop = 6349
+        mmTop = 11649
         mmWidth = 13229
         BandType = 3
         GroupNo = 0
@@ -2121,7 +2121,7 @@ object Report: TppReport
         DataPipelineName = 'Schueler'
         mmHeight = 4233
         mmLeft = 74877
-        mmTop = 6350
+        mmTop = 11650
         mmWidth = 27782
         BandType = 3
         GroupNo = 0
@@ -2138,7 +2138,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 0
-        mmTop = 17198
+        mmTop = 22498
         mmWidth = 23548
         BandType = 3
         GroupNo = 0
@@ -2155,7 +2155,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 80963
-        mmTop = 17198
+        mmTop = 22498
         mmWidth = 15346
         BandType = 3
         GroupNo = 0
@@ -2172,7 +2172,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4234
         mmLeft = 0
-        mmTop = 11906
+        mmTop = 17206
         mmWidth = 41804
         BandType = 3
         GroupNo = 0
@@ -2189,7 +2189,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 43921
-        mmTop = 11906
+        mmTop = 17206
         mmWidth = 41804
         BandType = 3
         GroupNo = 0
@@ -2200,7 +2200,7 @@ object Report: TppReport
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 23019
+        mmTop = 28312
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2217,7 +2217,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 27252
-        mmTop = 17198
+        mmTop = 22498
         mmWidth = 50006
         BandType = 3
         GroupNo = 0
@@ -2488,6 +2488,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
