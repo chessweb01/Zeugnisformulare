@@ -2018,6 +2018,7 @@ object Report: TppReport
       end
       object ppDBText2: TppDBText
         UserName = 'DBText2'
+        AutoSize = True
         DataField = 'Aufnahmedatum'
         DataPipeline = dmPipelines.Schueler
         Font.Charset = DEFAULT_CHARSET
@@ -2028,10 +2029,10 @@ object Report: TppReport
         ParentDataPipeline = False
         Transparent = True
         DataPipelineName = 'Schueler'
-        mmHeight = 4498
+        mmHeight = 4233
         mmLeft = 8202
         mmTop = 17992
-        mmWidth = 34131
+        mmWidth = 27781
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2134,6 +2135,7 @@ object Report: TppReport
       end
       object ppDBText14: TppDBText
         UserName = 'DBText14'
+        AutoSize = True
         DataField = 'Entlassdatum'
         DataPipeline = dmPipelines.Schueler
         Font.Charset = DEFAULT_CHARSET
@@ -2144,10 +2146,10 @@ object Report: TppReport
         ParentDataPipeline = False
         Transparent = True
         DataPipelineName = 'Schueler'
-        mmHeight = 4498
-        mmLeft = 52389
+        mmHeight = 4233
+        mmLeft = 52388
         mmTop = 17992
-        mmWidth = 32544
+        mmWidth = 22225
         BandType = 3
         GroupNo = 0
         LayerName = Foreground

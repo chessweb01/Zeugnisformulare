@@ -16,9 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Fachschule\Jahreszeugnis_FS_final.rtm'
+  Template.FileName = '\\SERVER-V\Schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Fachschule\Jahreszeugnis_FS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2186,6 +2184,7 @@ object Report: TppReport
       end
       object ppDBText2: TppDBText
         UserName = 'DBText2'
+        AutoSize = True
         DataField = 'Aufnahmedatum'
         DataPipeline = dmPipelines.Schueler
         Font.Charset = DEFAULT_CHARSET
@@ -2195,10 +2194,10 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         DataPipelineName = 'Schueler'
-        mmHeight = 4498
+        mmHeight = 4234
         mmLeft = 14817
-        mmTop = 6084
-        mmWidth = 28046
+        mmTop = 6085
+        mmWidth = 27781
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2213,7 +2212,7 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4234
-        mmLeft = 43921
+        mmLeft = 50546
         mmTop = 6083
         mmWidth = 4498
         BandType = 3
@@ -2267,7 +2266,7 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4498
-        mmLeft = 50271
+        mmLeft = 56896
         mmTop = 6083
         mmWidth = 32544
         BandType = 3
@@ -2284,7 +2283,7 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 85461
+        mmLeft = 92086
         mmTop = 6083
         mmWidth = 27252
         BandType = 3
@@ -2305,7 +2304,7 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 115623
+        mmLeft = 122248
         mmTop = 6085
         mmWidth = 56886
         BandType = 3
@@ -2537,6 +2536,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

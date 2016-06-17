@@ -2187,6 +2187,7 @@ object Report: TppReport
       end
       object ppDBText2: TppDBText
         UserName = 'DBText2'
+        AutoSize = True
         DataField = 'Aufnahmedatum'
         DataPipeline = dmPipelines.Schueler
         Font.Charset = DEFAULT_CHARSET
@@ -2196,10 +2197,10 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         DataPipelineName = 'Schueler'
-        mmHeight = 4498
+        mmHeight = 4233
         mmLeft = 66675
         mmTop = 7673
-        mmWidth = 40217
+        mmWidth = 27781
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
