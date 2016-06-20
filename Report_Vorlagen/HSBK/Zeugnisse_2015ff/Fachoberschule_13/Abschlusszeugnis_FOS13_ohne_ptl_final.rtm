@@ -18,9 +18,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 420000
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Fachoberschule_13\Abschlusszeugnis_FOS13_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Fachoberschule_13\Abschlusszeugnis_FOS13_ohne_ptl_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
