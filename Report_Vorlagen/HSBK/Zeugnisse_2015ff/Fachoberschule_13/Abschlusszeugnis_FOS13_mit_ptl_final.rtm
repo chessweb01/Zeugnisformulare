@@ -2088,12 +2088,13 @@ object Report: TppReport
             RichText = 
               '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}}'#13#10'{\col' +
               'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\lang1031' +
-              '\b\f0\fs44 Zeugnis der Fachgebundenen Hochschulreife\par'#13#10'}'#13#10#0
+              '\b\f0\fs44 Zeugnis der \par'#13#10'Fachgebundenen Hochschulreife\par'#13#10 +
+              '}'#13#10#0
             RemoveEmptyLines = False
-            mmHeight = 8996
-            mmLeft = 192352
-            mmTop = 123031
-            mmWidth = 178859
+            mmHeight = 55033
+            mmLeft = 215107
+            mmTop = 135751
+            mmWidth = 160338
             BandType = 4
             LayerName = Foreground7
             mmBottomOffset = 0
@@ -2187,16 +2188,17 @@ object Report: TppReport
             Font.Style = [fsBold]
             Caption = 'RBRichText5'
             RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}}'#13#10'{\col' +
-              'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\lang1031' +
-              '\b\f0\fs44 Zeugnis der Allgemeinen Hochschulreife\par'#13#10'}'#13#10#0
+              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fni' +
+              'l\fcharset0 Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewki' +
+              'nd4\uc1\pard\qc\cf1\lang1031\b\f0\fs44 Zeugnis\f1  \f0 der \par'#13 +
+              #10'Allgemeinen Hochschulreife\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             Visible = False
-            mmHeight = 8996
-            mmLeft = 196586
-            mmTop = 123031
-            mmWidth = 172244
+            mmHeight = 51858
+            mmLeft = 215107
+            mmTop = 135751
+            mmWidth = 160338
             BandType = 4
             LayerName = Foreground7
             mmBottomOffset = 0
@@ -2453,7 +2455,7 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
     object ppArchivierung: TppParameter
       AutoSearchSettings.LogicalPrefix = []
       AutoSearchSettings.Mandatory = True

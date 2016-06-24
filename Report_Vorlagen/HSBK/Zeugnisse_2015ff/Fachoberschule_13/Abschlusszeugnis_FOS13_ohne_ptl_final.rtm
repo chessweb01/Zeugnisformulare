@@ -1404,11 +1404,12 @@ object Report: TppReport
             Caption = 'RichText8'
             MailMerge = True
             RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Taho' +
-              'ma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\cf1' +
-              '\f0\fs22 1. Seite des Zeugnisses der Allgemeinen Hochschulreife ' +
-              'f\'#39'fcr <dbtext datapipeline='#39'Schueler'#39'>AdressAnrede</dbtext> <db' +
-              'text datapipeline='#39'Schueler'#39'>VornameName</dbtext>\par'#13#10'}'#13#10#0
+              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+              'rset0 Tahoma;}{\f1\fnil Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue' +
+              '0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs22 1. Seite des Zeugnisses der' +
+              ' Allgemeinen Hochschulreife f\'#39'fcr <dbtext datapipeline='#39'Schuele' +
+              'r'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorname' +
+              'Name</dbtext>\f1\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             Visible = False
@@ -1433,11 +1434,12 @@ object Report: TppReport
             Caption = 'RichText9'
             MailMerge = True
             RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Taho' +
-              'ma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\cf1' +
-              '\f0\fs22 1. Seite des Zeugnisses der Fachgebundenen Hochschulrei' +
-              'fe f\'#39'fcr <dbtext datapipeline='#39'Schueler'#39'>AdressAnrede</dbtext> ' +
-              '<dbtext datapipeline='#39'Schueler'#39'>VornameName</dbtext>\par'#13#10'}'#13#10#0
+              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+              'rset0 Tahoma;}{\f1\fnil Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue' +
+              '0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs22 1. Seite des Zeugnisses der' +
+              ' Fachgebundenen Hochschulreife f\'#39'fcr <dbtext datapipeline='#39'Schu' +
+              'eler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorn' +
+              'ameName</dbtext>\f1\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 5292
@@ -1461,11 +1463,12 @@ object Report: TppReport
             Caption = 'RichText10'
             MailMerge = True
             RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Taho' +
-              'ma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\cf1' +
-              '\f0\fs22 2. Seite des Zeugnisses der Allgemeinen Hochschulreife ' +
-              'f\'#39'fcr <dbtext datapipeline='#39'Schueler'#39'>AdressAnrede</dbtext> <db' +
-              'text datapipeline='#39'Schueler'#39'>VornameName</dbtext>\par'#13#10'}'#13#10#0
+              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+              'rset0 Tahoma;}{\f1\fnil Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue' +
+              '0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs22 2. Seite des Zeugnisses der' +
+              ' Allgemeinen Hochschulreife f\'#39'fcr <dbtext datapipeline='#39'Schuele' +
+              'r'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorname' +
+              'Name</dbtext>\f1\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             Visible = False
@@ -1490,11 +1493,12 @@ object Report: TppReport
             Caption = 'RichText101'
             MailMerge = True
             RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Taho' +
-              'ma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\cf1' +
-              '\f0\fs22 2. Seite des Zeugnisses der Fachgebundenen Hochschulrei' +
-              'fe f\'#39'fcr <dbtext datapipeline='#39'Schueler'#39'>AdressAnrede</dbtext> ' +
-              '<dbtext datapipeline='#39'Schueler'#39'>VornameName</dbtext>\par'#13#10'}'#13#10#0
+              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+              'rset0 Tahoma;}{\f1\fnil Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue' +
+              '0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs22 2. Seite des Zeugnisses der' +
+              ' Fachgebundenen Hochschulreife f\'#39'fcr <dbtext datapipeline='#39'Schu' +
+              'eler'#39'>AdressAnrede</dbtext> <dbtext datapipeline='#39'Schueler'#39'>Vorn' +
+              'ameName</dbtext>\f1\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Transparent = True
             mmHeight = 5292
@@ -1776,31 +1780,6 @@ object Report: TppReport
           mmBottomOffset = 0
           mmHeight = 254794
           mmPrintPosition = 0
-          object ppRichText6: TppRichText
-            UserName = 'RichText6'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Tahoma'
-            Font.Size = 22
-            Font.Style = [fsBold]
-            Caption = 'RichText6'
-            RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}}'#13#10'{\col' +
-              'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\lang1031' +
-              '\b\f0\fs44 Zeugnis der Fachgebundenen Hochschulreife\par'#13#10'}'#13#10#0
-            RemoveEmptyLines = False
-            mmHeight = 8996
-            mmLeft = 192352
-            mmTop = 123031
-            mmWidth = 178859
-            BandType = 4
-            LayerName = Foreground7
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
-            mmLeftMargin = 794
-          end
           object ppDBText10: TppDBText
             UserName = 'DBText10'
             DataField = 'KlassenLehrer'
@@ -1877,33 +1856,6 @@ object Report: TppReport
             BandType = 4
             LayerName = Foreground7
           end
-          object RBRichText5: TppRichText
-            UserName = 'RichText2'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Tahoma'
-            Font.Size = 22
-            Font.Style = [fsBold]
-            Caption = 'RBRichText5'
-            RichText = 
-              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}}'#13#10'{\col' +
-              'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\lang1031' +
-              '\b\f0\fs44 Zeugnis der Allgemeinen Hochschulreife\par'#13#10'}'#13#10#0
-            RemoveEmptyLines = False
-            Transparent = True
-            Visible = False
-            mmHeight = 8996
-            mmLeft = 196586
-            mmTop = 123031
-            mmWidth = 172244
-            BandType = 4
-            LayerName = Foreground7
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
-            mmLeftMargin = 794
-          end
           object ppLabel35: TppLabel
             UserName = 'Label30'
             Caption = '(c) R. Seliger, HSBK Oberhausen'
@@ -1973,28 +1925,63 @@ object Report: TppReport
             mmMinHeight = 0
             mmLeftMargin = 794
           end
+          object ppRichText6: TppRichText
+            UserName = 'RichText6'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Tahoma'
+            Font.Size = 22
+            Font.Style = [fsBold]
+            Caption = 'RichText6'
+            RichText = 
+              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}}'#13#10'{\col' +
+              'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\lang1031' +
+              '\b\f0\fs44 Zeugnis der \par'#13#10'Fachgebundenen Hochschulreife\par'#13#10 +
+              '}'#13#10#0
+            RemoveEmptyLines = False
+            mmHeight = 55033
+            mmLeft = 215107
+            mmTop = 135732
+            mmWidth = 160338
+            BandType = 4
+            LayerName = Foreground7
+            mmBottomOffset = 0
+            mmOverFlowOffset = 0
+            mmStopPosition = 0
+            mmMinHeight = 0
+            mmLeftMargin = 794
+          end
+          object RBRichText5: TppRichText
+            UserName = 'RichText2'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Tahoma'
+            Font.Size = 22
+            Font.Style = [fsBold]
+            Caption = 'RichText2'
+            RichText = 
+              '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Tahoma;}{\f1\fni' +
+              'l\fcharset0 Tahoma;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewki' +
+              'nd4\uc1\pard\qc\cf1\lang1031\b\f0\fs44 Zeugnis\f1  \f0 der \par'#13 +
+              #10'Allgemeinen Hochschulreife\par'#13#10'}'#13#10#0
+            RemoveEmptyLines = False
+            Transparent = True
+            Visible = False
+            mmHeight = 51858
+            mmLeft = 215107
+            mmTop = 135732
+            mmWidth = 160338
+            BandType = 4
+            LayerName = Foreground7
+            mmBottomOffset = 0
+            mmOverFlowOffset = 0
+            mmStopPosition = 0
+            mmMinHeight = 0
+            mmLeftMargin = 794
+          end
         end
         object raCodeModule7: TraCodeModule
-          ProgramStream = {
-            01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650610
-            5269636854657874324F6E5072696E740B50726F6772616D54797065070B7474
-            50726F63656475726506536F75726365069070726F6365647572652052696368
-            54657874324F6E5072696E743B0D0A626567696E0D0A2020696620616C6C6765
-            6D65696E203D2074727565207468656E0D0A202020205269636874657874322E
-            56697369626C65203A3D2074727565200D0A2020656C73650D0A202020205269
-            636874657874322E56697369626C65203A3D2066616C73653B200D0A656E643B
-            0D0A0D436F6D706F6E656E744E616D650609526963685465787432094576656E
-            744E616D6506074F6E5072696E74074576656E7449440220084361726574506F
-            730102000200000001060F5472614576656E7448616E646C65720B50726F6772
-            616D4E616D6506105269636854657874364F6E5072696E740B50726F6772616D
-            54797065070B747450726F63656475726506536F75726365069070726F636564
-            757265205269636854657874364F6E5072696E743B0D0A626567696E0D0A2020
-            696620616C6C67656D65696E203D2074727565207468656E0D0A202020205269
-            636874657874362E56697369626C65203A3D2066616C7365200D0A2020656C73
-            650D0A202020205269636874657874362E56697369626C65203A3D2074727565
-            3B200D0A656E643B0D0A0D436F6D706F6E656E744E616D650609526963685465
-            787436094576656E744E616D6506074F6E5072696E74074576656E7449440220
-            084361726574506F730102000200000000}
+          ProgramStream = {00}
         end
         object ppDesignLayers8: TppDesignLayers
           object ppDesignLayer8: TppDesignLayer
@@ -2005,50 +1992,6 @@ object Report: TppReport
         end
       end
     end
-  end
-  object raCodeModule6: TraCodeModule
-    ProgramStream = {
-      01060D54726156617250726F6772616D094368696C645479706502110B50726F
-      6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
-      0B747450726F63656475726506536F757263650C0E01000070726F6365647572
-      65205661726961626C65733B0D0A7661720D0A20202044757263687363686E69
-      7474203A20446F75626C653B0D0A20202053756D6D6547657769636874203A20
-      496E74656765723B0D0A20202053756D6D654E6F74656E203A20496E74656765
-      723B0D0A2020207966616368203A20737472696E673B0D0A202020416C6C636F
-      756E7435203A20696E74656765723B0D0A202020416C6C636F756E7436203A20
-      696E74656765723B0D0A20202053756D4E6F746544696666203A20496E746567
-      65723B0D0A20202045696E5175616C69203A20537472696E673B0D0A20202061
-      6C6C67656D65696E203A20626F6F6C65616E3B0D0A0D0A626567696E0D0A0D0A
-      656E643B0D0A084361726574506F730102000200000001060F5472614576656E
-      7448616E646C65720B50726F6772616D4E616D6506115265706F72744265666F
-      72655072696E740B50726F6772616D54797065070B747450726F636564757265
-      06536F75726365068070726F636564757265205265706F72744265666F726550
-      72696E743B0D0A626567696E0D0A7B5365745565626572736963687428547275
-      65293B0D0A46616563686572566F7262656C6567656E3B7D0D0A536574424B41
-      627363686C7573732854727565293B0D0A536574416269747572285472756529
-      3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F727409
-      4576656E744E616D65060B4265666F72655072696E74074576656E7449440201
-      084361726574506F730102000200000001060F5472614576656E7448616E646C
-      65720B50726F6772616D4E616D6506105265706F727441667465725072696E74
-      0B50726F6772616D54797065070B747450726F63656475726506536F75726365
-      068870726F636564757265205265706F727441667465725072696E743B0D0A62
-      6567696E0D0A7B536574556562657273696368742866616C7365293B0D0A5265
-      73657446616563686572566F7262656C6567756E673B7D0D0A536574424B4162
-      7363686C7573732866616C7365293B0D0A5365744162697475722866616C7365
-      293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F7274
-      094576656E744E616D65060A41667465725072696E74074576656E7449440200
-      084361726574506F730102030203000001060F5472614576656E7448616E646C
-      65720B50726F6772616D4E616D65061D5265706F72744265666F72654F70656E
-      44617461506970656C696E65730B50726F6772616D54797065070B747450726F
-      63656475726506536F75726365149E00000070726F636564757265205265706F
-      72744265666F72654F70656E44617461506970656C696E65733B0D0A62656769
-      6E0D0A202020207B47656874206E696368742066C3BC722044657461696C2D54
-      6162656C6C656E7D0D0A202020207B5365747A6546696C74657228424B416273
-      63686C757373666165636865722C2746616368536368726966746C6963683D27
-      272B272727293B7D0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606
-      5265706F7274094576656E744E616D6506174265666F72654F70656E44617461
-      506970656C696E6573074576656E744944038600084361726574506F73010200
-      0200000000}
   end
   object daDataModule1: TdaDataModule
     object daADOQueryDataView1: TdaADOQueryDataView
@@ -2144,6 +2087,50 @@ object Report: TppReport
         end
       end
     end
+  end
+  object raCodeModule6: TraCodeModule
+    ProgramStream = {
+      01060D54726156617250726F6772616D094368696C645479706502110B50726F
+      6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
+      0B747450726F63656475726506536F757263650C0E01000070726F6365647572
+      65205661726961626C65733B0D0A7661720D0A20202044757263687363686E69
+      7474203A20446F75626C653B0D0A20202053756D6D6547657769636874203A20
+      496E74656765723B0D0A20202053756D6D654E6F74656E203A20496E74656765
+      723B0D0A2020207966616368203A20737472696E673B0D0A202020416C6C636F
+      756E7435203A20696E74656765723B0D0A202020416C6C636F756E7436203A20
+      696E74656765723B0D0A20202053756D4E6F746544696666203A20496E746567
+      65723B0D0A20202045696E5175616C69203A20537472696E673B0D0A20202061
+      6C6C67656D65696E203A20626F6F6C65616E3B0D0A0D0A626567696E0D0A0D0A
+      656E643B0D0A084361726574506F730102000200000001060F5472614576656E
+      7448616E646C65720B50726F6772616D4E616D6506115265706F72744265666F
+      72655072696E740B50726F6772616D54797065070B747450726F636564757265
+      06536F75726365068070726F636564757265205265706F72744265666F726550
+      72696E743B0D0A626567696E0D0A7B5365745565626572736963687428547275
+      65293B0D0A46616563686572566F7262656C6567656E3B7D0D0A536574424B41
+      627363686C7573732854727565293B0D0A536574416269747572285472756529
+      3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F727409
+      4576656E744E616D65060B4265666F72655072696E74074576656E7449440201
+      084361726574506F730102000200000001060F5472614576656E7448616E646C
+      65720B50726F6772616D4E616D6506105265706F727441667465725072696E74
+      0B50726F6772616D54797065070B747450726F63656475726506536F75726365
+      068870726F636564757265205265706F727441667465725072696E743B0D0A62
+      6567696E0D0A7B536574556562657273696368742866616C7365293B0D0A5265
+      73657446616563686572566F7262656C6567756E673B7D0D0A536574424B4162
+      7363686C7573732866616C7365293B0D0A5365744162697475722866616C7365
+      293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F7274
+      094576656E744E616D65060A41667465725072696E74074576656E7449440200
+      084361726574506F730102030203000001060F5472614576656E7448616E646C
+      65720B50726F6772616D4E616D65061D5265706F72744265666F72654F70656E
+      44617461506970656C696E65730B50726F6772616D54797065070B747450726F
+      63656475726506536F75726365149E00000070726F636564757265205265706F
+      72744265666F72654F70656E44617461506970656C696E65733B0D0A62656769
+      6E0D0A202020207B47656874206E696368742066C3BC722044657461696C2D54
+      6162656C6C656E7D0D0A202020207B5365747A6546696C74657228424B416273
+      63686C757373666165636865722C2746616368536368726966746C6963683D27
+      272B272727293B7D0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606
+      5265706F7274094576656E744E616D6506174265666F72654F70656E44617461
+      506970656C696E6573074576656E744944038600084361726574506F73010200
+      0200000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer
