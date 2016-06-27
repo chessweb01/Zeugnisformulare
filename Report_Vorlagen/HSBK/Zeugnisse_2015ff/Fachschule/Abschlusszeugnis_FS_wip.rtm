@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = ' Drucker autom. Auswahl'
-  PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+  PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
@@ -20,7 +20,7 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Fachschule\Abschlusszeugnis_FS_final.rtm'
+    '_2015ff\Fachschule\Abschlusszeugnis_FS_wip.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -99,7 +99,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -146,7 +146,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsuebergreifend
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -320,7 +320,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsbezogen
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -775,7 +775,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport6: TppChildReport
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -1313,7 +1313,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plZUV
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -1577,61 +1577,6 @@ object Report: TppReport
               end
             end
           end
-          object ppLabel37: TppLabel
-            UserName = 'Label37'
-            Caption = 
-              'Der allgemeine Pr'#252'fungsausschuss stellte in seiner Abschlusskonf' +
-              'erenz am  '
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Univers'
-            Font.Size = 11
-            Font.Style = []
-            Transparent = True
-            mmHeight = 4498
-            mmLeft = 0
-            mmTop = 62706
-            mmWidth = 131763
-            BandType = 4
-            LayerName = Foreground1
-          end
-          object ppLabel39: TppLabel
-            UserName = 'Label18'
-            Caption = 'fest:'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Univers'
-            Font.Size = 11
-            Font.Style = []
-            Transparent = True
-            mmHeight = 4498
-            mmLeft = 170127
-            mmTop = 62706
-            mmWidth = 7408
-            BandType = 4
-            LayerName = Foreground1
-          end
-          object ppDBText21: TppDBText
-            UserName = 'DBText21'
-            DataField = 'Konferenzdatum'
-            DataPipeline = dmPipelines.plLernabschnitte
-            DisplayFormat = 'dd. mmmm yyyy'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Univers'
-            Font.Size = 11
-            Font.Style = [fsBold]
-            ParentDataPipeline = False
-            TextAlignment = taCentered
-            Transparent = True
-            DataPipelineName = 'plLernabschnitte'
-            mmHeight = 4763
-            mmLeft = 131763
-            mmTop = 62706
-            mmWidth = 37042
-            BandType = 4
-            LayerName = Foreground1
-          end
           object ppLine4: TppLine
             UserName = 'Line4'
             Weight = 0.750000000000000000
@@ -1875,6 +1820,35 @@ object Report: TppReport
             BandType = 4
             LayerName = Foreground1
           end
+          object ppRichText10: TppRichText
+            UserName = 'RichText10'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Univers'
+            Font.Size = 11
+            Font.Style = []
+            Caption = 'RichText10'
+            MailMerge = True
+            RichText = 
+              '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+              'rset0 Arial;}{\f1\fnil Univers;}}'#13#10'{\colortbl ;\red0\green0\blue' +
+              '0;}'#13#10'\viewkind4\uc1\pard\cf1\fs22 Der allgemeine Pr\'#39'fcfungsauss' +
+              'chuss stellte in seiner Abschlusskonferenz am \b <dbtext datapip' +
+              'eline='#39'plLernabschnitte'#39' displayformat='#39'dd. mmmm yyyy'#39'>Konferenz' +
+              'datum</dbtext> \b0 fest:\f1\par'#13#10'}'#13#10#0
+            RemoveEmptyLines = False
+            Transparent = True
+            mmHeight = 4763
+            mmLeft = 0
+            mmTop = 61913
+            mmWidth = 177536
+            BandType = 4
+            LayerName = Foreground1
+            mmBottomOffset = 0
+            mmOverFlowOffset = 0
+            mmStopPosition = 0
+            mmMinHeight = 0
+          end
         end
         object raCodeModule1: TraCodeModule
           ProgramStream = {
@@ -2000,7 +1974,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -2176,7 +2150,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport9: TppChildReport
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
