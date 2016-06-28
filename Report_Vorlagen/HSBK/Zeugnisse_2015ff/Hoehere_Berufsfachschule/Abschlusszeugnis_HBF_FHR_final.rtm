@@ -1645,7 +1645,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 5027
             mmLeft = 0
-            mmTop = 181515
+            mmTop = 184695
             mmWidth = 149490
             BandType = 4
             LayerName = Foreground1
@@ -1665,7 +1665,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 186276
+            mmTop = 189456
             mmWidth = 41540
             BandType = 4
             LayerName = Foreground1

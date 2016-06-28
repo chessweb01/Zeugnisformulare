@@ -1,0 +1,3875 @@
+object Report: TppReport
+  OnFileDeviceCreate = ReportFileDeviceCreate
+  AutoStop = False
+  DataPipeline = dmPipelines.Schueler
+  OnStartFirstPass = ReportStartFirstPass
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Konferenzliste_FS.rtm'
+  PrinterSetup.Orientation = poLandscape
+  PrinterSetup.PaperName = 'A3'
+  PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+  PrinterSetup.SaveDeviceSettings = False
+  PrinterSetup.mmMarginBottom = 10350
+  PrinterSetup.mmMarginLeft = 25350
+  PrinterSetup.mmMarginRight = 20350
+  PrinterSetup.mmMarginTop = 10350
+  PrinterSetup.mmPaperHeight = 297000
+  PrinterSetup.mmPaperWidth = 420000
+  PrinterSetup.PaperSize = 8
+  SaveAsTemplate = True
+  Template.FileName = 
+    '\\server-v\schild$\Schild-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Konferenzliste_FS.rtm'
+  Template.Format = ftASCII
+  Units = utMillimeters
+  AllowPrintToArchive = True
+  AllowPrintToFile = True
+  ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
+  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
+  BeforePrint = ReportBeforePrint
+  BeforeEmail = ReportBeforeEmail
+  DeviceType = 'Printer'
+  DefaultFileDeviceType = 'PDF'
+  EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.Enabled = True
+  LanguageID = 'Default'
+  OnInitializeParameters = ReportInitializeParameters
+  OnPreviewFormCreate = ReportPreviewFormCreate
+  OpenFile = False
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = False
+  ThumbnailSettings.Enabled = True
+  ThumbnailSettings.Visible = True
+  ThumbnailSettings.DeadSpace = 30
+  PDFSettings.EmbedFontOptions = []
+  PDFSettings.EncryptSettings.AllowCopy = True
+  PDFSettings.EncryptSettings.AllowInteract = True
+  PDFSettings.EncryptSettings.AllowModify = True
+  PDFSettings.EncryptSettings.AllowPrint = True
+  PDFSettings.EncryptSettings.Enabled = False
+  PDFSettings.EncryptSettings.KeyLength = kl40Bit
+  PDFSettings.FontEncoding = feAnsi
+  PDFSettings.ImageCompressionLevel = 25
+  PreviewFormSettings.ZoomSetting = zs100Percent
+  PreviewFormSettings.SinglePageOnly = True
+  RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
+  RTFSettings.DefaultFont.Color = clWindowText
+  RTFSettings.DefaultFont.Height = -13
+  RTFSettings.DefaultFont.Name = 'Arial'
+  RTFSettings.DefaultFont.Style = []
+  TextFileName = '($MyDocuments)\Report.pdf'
+  TextSearchSettings.DefaultString = '<Suchtext>'
+  TextSearchSettings.Enabled = False
+  XLSSettings.AppName = 'ReportBuilder'
+  XLSSettings.Author = 'ReportBuilder'
+  XLSSettings.Subject = 'Report'
+  XLSSettings.Title = 'Report'
+  Left = 128
+  Top = 8
+  Version = '15.05'
+  mmColumnWidth = 374300
+  DataPipelineName = 'Schueler'
+  object ppHeaderBand2: TppHeaderBand
+    Background.Brush.Style = bsClear
+    PrintHeight = phDynamic
+    mmBottomOffset = 0
+    mmHeight = 53975
+    mmPrintPosition = 0
+    object ppLine3: TppLine
+      UserName = 'Line1'
+      Pen.Width = 3
+      ParentWidth = True
+      Position = lpBottom
+      Weight = 2.250000000000000000
+      mmHeight = 3969
+      mmLeft = 0
+      mmTop = 8467
+      mmWidth = 374300
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel4: TppLabel
+      UserName = 'Label3'
+      Caption = 'Konferenzliste'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = []
+      Transparent = True
+      mmHeight = 6085
+      mmLeft = 0
+      mmTop = 2381
+      mmWidth = 32015
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel5: TppLabel
+      UserName = 'Label4'
+      Caption = 'Label4'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 269611
+      mmTop = 2381
+      mmWidth = 14817
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppSubReport1: TppSubReport
+      UserName = 'SubReport1'
+      ExpandAll = False
+      NewPrintJob = False
+      OutlineSettings.CreateNode = True
+      ParentPrinterSetup = False
+      ParentWidth = False
+      TraverseAllData = False
+      DataPipelineName = '__pplnFaecherOhneAAx'
+      mmHeight = 10054
+      mmLeft = 71702
+      mmTop = 39158
+      mmWidth = 121973
+      BandType = 0
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      object ppChildReport2: TppChildReport
+        AutoStop = False
+        Columns = 41
+        ColumnPositions.Strings = (
+          '0'
+          '7089'
+          '14178'
+          '21267'
+          '28356'
+          '35445'
+          '42534'
+          '49623'
+          '56712'
+          '63801'
+          '70890'
+          '77979'
+          '85068'
+          '92157'
+          '99246'
+          '106335'
+          '113424'
+          '120513'
+          '127602'
+          '134691'
+          '141780'
+          '148869'
+          '155958'
+          '163047'
+          '170136'
+          '177225'
+          '184314'
+          '191403'
+          '198492'
+          '205581'
+          '212670'
+          '219759'
+          '226848'
+          '233937'
+          '241026'
+          '248115'
+          '255204'
+          '262293'
+          '269382'
+          '276471'
+          '283560')
+        DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+        PrinterSetup.BinName = 'Default'
+        PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
+        PrinterSetup.Orientation = poLandscape
+        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+        PrinterSetup.SaveDeviceSettings = False
+        PrinterSetup.mmMarginBottom = 10350
+        PrinterSetup.mmMarginLeft = 25350
+        PrinterSetup.mmMarginRight = 20350
+        PrinterSetup.mmMarginTop = 10350
+        PrinterSetup.mmPaperHeight = 297000
+        PrinterSetup.mmPaperWidth = 420000
+        PrinterSetup.PaperSize = 8
+        Template.Format = ftASCII
+        Units = utMillimeters
+        Version = '15.05'
+        mmColumnWidth = 7089
+        DataPipelineName = '__pplnFaecherOhneAAx'
+        object ppColumnHeaderBand1: TppColumnHeaderBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppDetailBand2: TppDetailBand
+          Background1.Brush.Style = bsClear
+          Background2.Brush.Style = bsClear
+          ColumnTraversal = ctLeftToRight
+          mmBottomOffset = 0
+          mmHeight = 15000
+          mmPrintPosition = 0
+          object ppDBText10: TppDBText
+            UserName = 'DBText10'
+            Angle = 90
+            DataField = 'FachKrz'
+            DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Name = 'Arial'
+            Font.Size = 9
+            Font.Style = [fsBold]
+            Transparent = True
+            DataPipelineName = '__pplnFaecherOhneAAx'
+            mmHeight = 11906
+            mmLeft = 529
+            mmTop = 1058
+            mmWidth = 5556
+            BandType = 4
+            LayerName = Foreground1
+            RotatedOriginLeft = 0
+            RotatedOriginTop = 11906
+          end
+        end
+        object ppColumnFooterBand1: TppColumnFooterBand
+          AlignToBottom = True
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object raCodeModule1: TraCodeModule
+          ProgramStream = {00}
+        end
+        object ppDesignLayers2: TppDesignLayers
+          object ppDesignLayer2: TppDesignLayer
+            UserName = 'Foreground1'
+            LayerType = ltBanded
+            Index = 0
+          end
+        end
+      end
+    end
+    object ppRichText1: TppRichText
+      UserName = 'RichText1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 8
+      Font.Style = []
+      Caption = 'Fehl'
+      RichText = 
+        '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Aria' +
+        'l;}{\f1\fnil\fcharset0 Arial;}}'#13#10'\viewkind4\uc1\pard\qc\f0\fs14\' +
+        'par'#13#10'Fehl\f1 stunden\f0\par'#13#10'g\f1 es\f0 .    \f1 ne\f0 .\par'#13#10'}'#13 +
+        #10#0
+      RemoveEmptyLines = False
+      mmHeight = 10319
+      mmLeft = 56621
+      mmTop = 42863
+      mmWidth = 14288
+      BandType = 0
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      mmLeftMargin = 794
+    end
+    object ppLine12: TppLine
+      UserName = 'Line12'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 55033
+      mmTop = 42863
+      mmWidth = 4498
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine13: TppLine
+      UserName = 'Line13'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 70908
+      mmTop = 42863
+      mmWidth = 4498
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine15: TppLine
+      UserName = 'Line15'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 330743
+      mmTop = 46302
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppSubReport6: TppSubReport
+      UserName = 'SubReport6'
+      ExpandAll = False
+      NewPrintJob = False
+      OutlineSettings.CreateNode = True
+      ParentPrinterSetup = False
+      ParentWidth = False
+      TraverseAllData = False
+      DataPipelineName = '__pplnFaecherOhneAAx'
+      mmHeight = 4498
+      mmLeft = 265
+      mmTop = 15610
+      mmWidth = 146844
+      BandType = 0
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      object ppChildReport6: TppChildReport
+        AutoStop = False
+        Columns = 4
+        ColumnPositions.Strings = (
+          '0'
+          '70000'
+          '140000'
+          '210000'
+          '28356'
+          '35445'
+          '42534'
+          '49623'
+          '56712'
+          '63801'
+          '70890'
+          '77979'
+          '85068'
+          '92157'
+          '99246'
+          '106335'
+          '113424'
+          '120513'
+          '127602'
+          '134691'
+          '141780'
+          '148869'
+          '155958'
+          '163047'
+          '170136'
+          '177225'
+          '184314'
+          '191403'
+          '198492'
+          '205581'
+          '212670'
+          '219759'
+          '226848'
+          '233937'
+          '241026'
+          '248115'
+          '255204'
+          '262293'
+          '269382'
+          '276471'
+          '283560')
+        DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+        PrinterSetup.BinName = 'Default'
+        PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
+        PrinterSetup.Orientation = poLandscape
+        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+        PrinterSetup.SaveDeviceSettings = False
+        PrinterSetup.mmMarginBottom = 10350
+        PrinterSetup.mmMarginLeft = 25350
+        PrinterSetup.mmMarginRight = 20350
+        PrinterSetup.mmMarginTop = 10350
+        PrinterSetup.mmPaperHeight = 297000
+        PrinterSetup.mmPaperWidth = 420000
+        PrinterSetup.PaperSize = 8
+        Template.Format = ftASCII
+        Units = utMillimeters
+        Version = '15.05'
+        mmColumnWidth = 70000
+        DataPipelineName = '__pplnFaecherOhneAAx'
+        object ppTitleBand1: TppTitleBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppColumnHeaderBand3: TppColumnHeaderBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppDetailBand8: TppDetailBand
+          Background1.Brush.Style = bsClear
+          Background2.Brush.Style = bsClear
+          ColumnTraversal = ctLeftToRight
+          mmBottomOffset = 0
+          mmHeight = 4498
+          mmPrintPosition = 0
+          object ppDBText7: TppDBText
+            UserName = 'DBText7'
+            DataField = 'FachKrz'
+            DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Name = 'Arial'
+            Font.Size = 9
+            Font.Style = []
+            Transparent = True
+            DataPipelineName = '__pplnFaecherOhneAAx'
+            mmHeight = 3969
+            mmLeft = 1852
+            mmTop = 529
+            mmWidth = 17198
+            BandType = 4
+            LayerName = Foreground2
+          end
+          object ppDBText8: TppDBText
+            UserName = 'DBText8'
+            DataField = 'Zeugnisbez'
+            DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Name = 'Arial'
+            Font.Size = 9
+            Font.Style = []
+            Transparent = True
+            DataPipelineName = '__pplnFaecherOhneAAx'
+            mmHeight = 3969
+            mmLeft = 19844
+            mmTop = 529
+            mmWidth = 48683
+            BandType = 4
+            LayerName = Foreground2
+          end
+        end
+        object ppColumnFooterBand3: TppColumnFooterBand
+          AlignToBottom = True
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppSummaryBand1: TppSummaryBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object raCodeModule5: TraCodeModule
+          ProgramStream = {00}
+        end
+        object ppDesignLayers3: TppDesignLayers
+          object ppDesignLayer3: TppDesignLayer
+            UserName = 'Foreground2'
+            LayerType = ltBanded
+            Index = 0
+          end
+        end
+      end
+    end
+    object ppSubReport7: TppSubReport
+      UserName = 'SubReport7'
+      ExpandAll = False
+      NewPrintJob = False
+      OutlineSettings.CreateNode = True
+      ParentWidth = False
+      TraverseAllData = False
+      DataPipelineName = 'plSchuelerKlasse'
+      mmHeight = 5027
+      mmLeft = 116946
+      mmTop = 2381
+      mmWidth = 82286
+      BandType = 0
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      object ppChildReport7: TppChildReport
+        AutoStop = False
+        DataPipeline = dmPipelines.plSchuelerKlasse
+        PrinterSetup.BinName = 'Default'
+        PrinterSetup.DocumentName = 'Konferenzliste_FS.rtm'
+        PrinterSetup.Orientation = poLandscape
+        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+        PrinterSetup.SaveDeviceSettings = False
+        PrinterSetup.mmMarginBottom = 10350
+        PrinterSetup.mmMarginLeft = 25350
+        PrinterSetup.mmMarginRight = 20350
+        PrinterSetup.mmMarginTop = 10350
+        PrinterSetup.mmPaperHeight = 297000
+        PrinterSetup.mmPaperWidth = 420000
+        PrinterSetup.PaperSize = 8
+        Template.Format = ftASCII
+        Units = utMillimeters
+        Version = '15.05'
+        mmColumnWidth = 0
+        DataPipelineName = 'plSchuelerKlasse'
+        object ppDetailBand9: TppDetailBand
+          Background1.Brush.Style = bsClear
+          Background2.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 5027
+          mmPrintPosition = 0
+          object ppLabel12: TppLabel
+            UserName = 'Label12'
+            Caption = 'Label12'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Name = 'Arial'
+            Font.Size = 14
+            Font.Style = []
+            Transparent = True
+            mmHeight = 6085
+            mmLeft = 0
+            mmTop = 0
+            mmWidth = 18256
+            BandType = 4
+            LayerName = Foreground3
+          end
+        end
+        object raCodeModule6: TraCodeModule
+          ProgramStream = {
+            01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650610
+            4C6162656C31324F6E476574546578740B50726F6772616D54797065070B7474
+            50726F63656475726506536F7572636506AF70726F636564757265204C616265
+            6C31324F6E476574546578742876617220546578743A20537472696E67293B0D
+            0A626567696E0D0A0D0A202054657874203A3D20274B6C617373656E6C656872
+            65722F696E3A2027202B204C65726E61627363686E697474655B274B4C4E6163
+            686E616D65275D202B2027202827202B204C65726E61627363686E697474655B
+            274B6C617373656E6C6568726572275D202B202729273B0D0A0D0A656E643B0D
+            0A0D436F6D706F6E656E744E616D6506074C6162656C3132094576656E744E61
+            6D6506094F6E47657454657874074576656E7449440235084361726574506F73
+            0102030203000000}
+        end
+        object ppDesignLayers4: TppDesignLayers
+          object ppDesignLayer4: TppDesignLayer
+            UserName = 'Foreground3'
+            LayerType = ltBanded
+            Index = 0
+          end
+        end
+      end
+    end
+    object ppLabel11: TppLabel
+      UserName = 'Label101'
+      Caption = 'Zeugn. '
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 331797
+      mmTop = 43921
+      mmWidth = 12965
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppDBText11: TppDBText
+      UserName = 'DBText11'
+      DataField = 'Klasse'
+      DataPipeline = dmPipelines.plLernabschnitte
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = []
+      ParentDataPipeline = False
+      Transparent = True
+      DataPipelineName = 'plLernabschnitte'
+      mmHeight = 6085
+      mmLeft = 64029
+      mmTop = 2381
+      mmWidth = 18521
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel6: TppLabel
+      UserName = 'Label6'
+      Caption = 'Klasse:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = []
+      Transparent = True
+      mmHeight = 6085
+      mmLeft = 45508
+      mmTop = 2381
+      mmWidth = 16669
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine21: TppLine
+      UserName = 'Line201'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10319
+      mmLeft = 343701
+      mmTop = 42863
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine23: TppLine
+      UserName = 'Line23'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 9260
+      mmLeft = 371476
+      mmTop = 43921
+      mmWidth = 3969
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel13: TppLabel
+      UserName = 'Label13'
+      Caption = 'Ausg.-'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 359040
+      mmTop = 42863
+      mmWidth = 11377
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel8: TppLabel
+      UserName = 'Label8'
+      Caption = 'art'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 332062
+      mmTop = 48683
+      mmWidth = 6879
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine17: TppLine
+      UserName = 'Line17'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 11113
+      mmLeft = 356659
+      mmTop = 42863
+      mmWidth = 794
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel9: TppLabel
+      UserName = 'Label9'
+      Caption = 'Konf.-'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 346614
+      mmTop = 43921
+      mmWidth = 10318
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel1: TppLabel
+      UserName = 'Label1'
+      Caption = 'datum'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 359040
+      mmTop = 48683
+      mmWidth = 11377
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel2: TppLabel
+      UserName = 'datum'
+      Caption = 'datum'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 344757
+      mmTop = 48683
+      mmWidth = 11377
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine20: TppLine
+      UserName = 'Line20'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 215900
+      mmTop = 44451
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine22: TppLine
+      UserName = 'Line202'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 220134
+      mmTop = 44186
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine25: TppLine
+      UserName = 'Line203'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 224103
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine26: TppLine
+      UserName = 'Line204'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 228336
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine27: TppLine
+      UserName = 'Line205'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 232305
+      mmTop = 43921
+      mmWidth = 1323
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine28: TppLine
+      UserName = 'Line206'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 237067
+      mmTop = 43921
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine29: TppLine
+      UserName = 'Line207'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 241565
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine31: TppLine
+      UserName = 'Line31'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 245798
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine32: TppLine
+      UserName = 'Line32'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 249767
+      mmTop = 43921
+      mmWidth = 1323
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine33: TppLine
+      UserName = 'Line33'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 254530
+      mmTop = 43921
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine34: TppLine
+      UserName = 'Line34'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 258498
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine35: TppLine
+      UserName = 'Line35'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 262203
+      mmTop = 43921
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine36: TppLine
+      UserName = 'Line36'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 266436
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine37: TppLine
+      UserName = 'Line37'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 270405
+      mmTop = 46302
+      mmWidth = 1323
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine38: TppLine
+      UserName = 'Line38'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 275167
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine39: TppLine
+      UserName = 'Line39'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 279665
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine40: TppLine
+      UserName = 'Line40'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 6615
+      mmLeft = 283898
+      mmTop = 46302
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine41: TppLine
+      UserName = 'Line41'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 287867
+      mmTop = 46302
+      mmWidth = 1323
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine42: TppLine
+      UserName = 'Line42'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 292630
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine43: TppLine
+      UserName = 'Line43'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 296334
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine44: TppLine
+      UserName = 'Line44'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 300833
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine67: TppLine
+      UserName = 'Line67'
+      Position = lpBottom
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 6350
+      mmLeft = 265
+      mmTop = 47625
+      mmWidth = 369888
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine4: TppLine
+      UserName = 'Line3'
+      Position = lpBottom
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 6350
+      mmLeft = 13758
+      mmTop = 47625
+      mmWidth = 356130
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine69: TppLine
+      UserName = 'Line69'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 305065
+      mmTop = 46302
+      mmWidth = 1323
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine70: TppLine
+      UserName = 'Line70'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 309828
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine71: TppLine
+      UserName = 'Line71'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 313532
+      mmTop = 46302
+      mmWidth = 265
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine72: TppLine
+      UserName = 'Line72'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 317766
+      mmTop = 46302
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine76: TppLine
+      UserName = 'Line76'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 326242
+      mmTop = 46302
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine78: TppLine
+      UserName = 'Line78'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 7673
+      mmLeft = 321996
+      mmTop = 46302
+      mmWidth = 529
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine81: TppLine
+      UserName = 'Line208'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 211922
+      mmTop = 44449
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine82: TppLine
+      UserName = 'Line82'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 207953
+      mmTop = 44184
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine84: TppLine
+      UserName = 'Line84'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 203721
+      mmTop = 44184
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine86: TppLine
+      UserName = 'Line86'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 198958
+      mmTop = 44184
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine88: TppLine
+      UserName = 'Line88'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 8996
+      mmLeft = 193400
+      mmTop = 44449
+      mmWidth = 1588
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel3: TppLabel
+      UserName = 'Label2'
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Zulassung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 193411
+      mmTop = 36513
+      mmWidth = 11112
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel7: TppLabel
+      UserName = 'Label5'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'schriftlich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 193411
+      mmTop = 40217
+      mmWidth = 11113
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel10: TppLabel
+      UserName = 'Label7'
+      Angle = 90
+      Caption = 'Examen'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 9260
+      mmLeft = 194469
+      mmTop = 43921
+      mmWidth = 3704
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 529
+      RotatedOriginTop = 9260
+    end
+    object ppLabel14: TppLabel
+      UserName = 'Label14'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 199766
+      mmTop = 46297
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel15: TppLabel
+      UserName = 'Label15'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fungsnoten'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 204259
+      mmTop = 36513
+      mmWidth = 16140
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel16: TppLabel
+      UserName = 'Label16'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'schriftlich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 204259
+      mmTop = 40217
+      mmWidth = 16140
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel17: TppLabel
+      UserName = 'Label17'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 216165
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel18: TppLabel
+      UserName = 'Label18'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 204259
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel19: TppLabel
+      UserName = 'Label19'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 207963
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel20: TppLabel
+      UserName = 'Label20'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 211932
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel21: TppLabel
+      UserName = 'Label21'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 220134
+      mmTop = 36513
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel22: TppLabel
+      UserName = 'Label22'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'm'#252'ndlich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 220134
+      mmTop = 40217
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel23: TppLabel
+      UserName = 'Label23'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Zeugnis-'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 237075
+      mmTop = 36513
+      mmWidth = 17727
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel24: TppLabel
+      UserName = 'Label24'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'noten'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 237075
+      mmTop = 40217
+      mmWidth = 17727
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel25: TppLabel
+      UserName = 'Label25'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 254530
+      mmTop = 36513
+      mmWidth = 12171
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel26: TppLabel
+      UserName = 'Label26'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'best.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 254530
+      mmTop = 40217
+      mmWidth = 12171
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel27: TppLabel
+      UserName = 'Label27'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 220926
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel28: TppLabel
+      UserName = 'Label28'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 225160
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel29: TppLabel
+      UserName = 'Label201'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 229129
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel30: TppLabel
+      UserName = 'Label30'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 233363
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel31: TppLabel
+      UserName = 'Label31'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 238122
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel32: TppLabel
+      UserName = 'Label32'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 242091
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel33: TppLabel
+      UserName = 'Label33'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 246060
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel34: TppLabel
+      UserName = 'Label301'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 250293
+      mmTop = 46302
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel38: TppLabel
+      UserName = 'Label38'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 267494
+      mmTop = 47625
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel39: TppLabel
+      UserName = 'Label39'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 271463
+      mmTop = 47625
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel40: TppLabel
+      UserName = 'Label40'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 275432
+      mmTop = 47625
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel41: TppLabel
+      UserName = 'Label41'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 279665
+      mmTop = 47625
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel42: TppLabel
+      UserName = 'Label42'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fungsnoten'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 266436
+      mmTop = 40217
+      mmWidth = 17727
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel43: TppLabel
+      UserName = 'Label43'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'schriftlich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 266436
+      mmTop = 43128
+      mmWidth = 17727
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel44: TppLabel
+      UserName = 'Label44'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 283898
+      mmTop = 40217
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel45: TppLabel
+      UserName = 'Label45'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'm'#252'ndlich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3440
+      mmLeft = 283898
+      mmTop = 42863
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel46: TppLabel
+      UserName = 'Label46'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'noten'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 300832
+      mmTop = 43127
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel47: TppLabel
+      UserName = 'Label47'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Zeugnis-'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 300832
+      mmTop = 40217
+      mmWidth = 17198
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel48: TppLabel
+      UserName = 'Label48'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 284956
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel49: TppLabel
+      UserName = 'Label49'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 289190
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel50: TppLabel
+      UserName = 'Label401'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 293159
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel51: TppLabel
+      UserName = 'Label51'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 297392
+      mmTop = 47625
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel52: TppLabel
+      UserName = 'Label52'
+      Angle = 90
+      Caption = 'EX1'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 301626
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel53: TppLabel
+      UserName = 'Label53'
+      Angle = 90
+      Caption = 'EX2'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 305859
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel54: TppLabel
+      UserName = 'Label54'
+      Angle = 90
+      Caption = 'EX3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 309828
+      mmTop = 47890
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3969
+    end
+    object ppLabel55: TppLabel
+      UserName = 'Label55'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 314061
+      mmTop = 47361
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4498
+    end
+    object ppLabel56: TppLabel
+      UserName = 'Label56'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Pr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 317765
+      mmTop = 40217
+      mmWidth = 13494
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel57: TppLabel
+      UserName = 'Label57'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'best.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 317765
+      mmTop = 43127
+      mmWidth = 13494
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel35: TppLabel
+      UserName = 'Label35'
+      Angle = 90
+      Caption = 'EX'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 254530
+      mmTop = 47096
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3175
+    end
+    object ppLabel36: TppLabel
+      UserName = 'Label36'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 258498
+      mmTop = 45773
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 5027
+    end
+    object ppLabel37: TppLabel
+      UserName = 'Label37'
+      Angle = 90
+      Caption = 'Durchsch.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 5
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 9790
+      mmLeft = 263526
+      mmTop = 43656
+      mmWidth = 2646
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 9790
+    end
+    object ppLabel58: TppLabel
+      UserName = 'Label58'
+      Angle = 90
+      Caption = 'EX'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 318295
+      mmTop = 48419
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 3175
+    end
+    object ppLabel59: TppLabel
+      UserName = 'Label59'
+      Angle = 90
+      Caption = 'FHR'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 7
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 322264
+      mmTop = 47096
+      mmWidth = 3175
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 5027
+    end
+    object ppLabel60: TppLabel
+      UserName = 'Label60'
+      Angle = 90
+      Caption = 'Dsch'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 5
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 327291
+      mmTop = 48151
+      mmWidth = 2646
+      BandType = 0
+      LayerName = Foreground
+      RotatedOriginLeft = 0
+      RotatedOriginTop = 4763
+    end
+    object ppLabel61: TppLabel
+      UserName = 'Label10'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Nachpr'#252'fung/Ersatzpr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 8
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 266436
+      mmTop = 36513
+      mmWidth = 64823
+      BandType = 0
+      LayerName = Foreground
+    end
+  end
+  object ppDetailBand3: TppDetailBand
+    Background1.Brush.Style = bsClear
+    Background2.Brush.Style = bsClear
+    PrintHeight = phDynamic
+    mmBottomOffset = 0
+    mmHeight = 5292
+    mmPrintPosition = 0
+    object ppDBCalc1: TppDBCalc
+      UserName = 'DBCalc1'
+      DataField = 'ID'
+      DataPipeline = dmPipelines.Schueler
+      DisplayFormat = '###'#39'.'#39
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DBCalcType = dcCount
+      DataPipelineName = 'Schueler'
+      mmHeight = 4498
+      mmLeft = 265
+      mmTop = 0
+      mmWidth = 8202
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppSubReport2: TppSubReport
+      UserName = 'SubReport2'
+      ExpandAll = False
+      NewPrintJob = False
+      OutlineSettings.CreateNode = True
+      ParentPrinterSetup = False
+      ParentWidth = False
+      TraverseAllData = False
+      DataPipelineName = 'plFachuebersicht'
+      mmHeight = 4498
+      mmLeft = 73025
+      mmTop = 0
+      mmWidth = 120650
+      BandType = 4
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      object ppChildReport4: TppChildReport
+        AutoStop = False
+        Columns = 41
+        ColumnPositions.Strings = (
+          '0'
+          '7089'
+          '14178'
+          '21267'
+          '28356'
+          '35445'
+          '42534'
+          '49623'
+          '56712'
+          '63801'
+          '70890'
+          '77979'
+          '85068'
+          '92157'
+          '99246'
+          '106335'
+          '113424'
+          '120513'
+          '127602'
+          '134691'
+          '141780'
+          '148869'
+          '155958'
+          '163047'
+          '170136'
+          '177225'
+          '184314'
+          '191403'
+          '198492'
+          '205581'
+          '212670'
+          '219759'
+          '226848'
+          '233937'
+          '241026'
+          '248115'
+          '255204'
+          '262293'
+          '269382'
+          '276471'
+          '283560')
+        DataPipeline = dmPipelines.plFachuebersicht
+        PrinterSetup.BinName = 'Default'
+        PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
+        PrinterSetup.Orientation = poLandscape
+        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+        PrinterSetup.SaveDeviceSettings = False
+        PrinterSetup.mmMarginBottom = 10350
+        PrinterSetup.mmMarginLeft = 25350
+        PrinterSetup.mmMarginRight = 20350
+        PrinterSetup.mmMarginTop = 10350
+        PrinterSetup.mmPaperHeight = 297000
+        PrinterSetup.mmPaperWidth = 420000
+        PrinterSetup.PaperSize = 8
+        Template.Format = ftASCII
+        Units = utMillimeters
+        Version = '15.05'
+        mmColumnWidth = 7089
+        DataPipelineName = 'plFachuebersicht'
+        object ppTitleBand2: TppTitleBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppColumnHeaderBand2: TppColumnHeaderBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppDetailBand5: TppDetailBand
+          Background1.Brush.Style = bsClear
+          Background2.Brush.Style = bsClear
+          ColumnTraversal = ctLeftToRight
+          mmBottomOffset = 0
+          mmHeight = 5027
+          mmPrintPosition = 0
+          object ppLine5: TppLine
+            UserName = 'Line5'
+            ParentHeight = True
+            Position = lpRight
+            Weight = 0.750000000000000000
+            mmHeight = 5027
+            mmLeft = 5026
+            mmTop = 0
+            mmWidth = 1323
+            BandType = 4
+            LayerName = Foreground4
+          end
+        end
+        object ppColumnFooterBand2: TppColumnFooterBand
+          AlignToBottom = True
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppSummaryBand2: TppSummaryBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object raCodeModule3: TraCodeModule
+          ProgramStream = {00}
+        end
+        object ppDesignLayers5: TppDesignLayers
+          object ppDesignLayer5: TppDesignLayer
+            UserName = 'Foreground4'
+            LayerType = ltBanded
+            Index = 0
+          end
+        end
+      end
+    end
+    object ppLine7: TppLine
+      UserName = 'Line7'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 0
+      mmTop = 0
+      mmWidth = 3175
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine8: TppLine
+      UserName = 'Line8'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 9790
+      mmTop = 0
+      mmWidth = 3704
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine9: TppLine
+      UserName = 'Line9'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 55000
+      mmTop = 0
+      mmWidth = 2910
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine16: TppLine
+      UserName = 'Line16'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 330742
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine10: TppLine
+      UserName = 'Line10'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 62706
+      mmTop = 0
+      mmWidth = 1323
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine11: TppLine
+      UserName = 'Line101'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 70644
+      mmTop = 0
+      mmWidth = 2381
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppDBText5: TppDBText
+      UserName = 'NameVorname'
+      DataField = 'NameVorname'
+      DataPipeline = dmPipelines.Schueler
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'Schueler'
+      mmHeight = 5292
+      mmLeft = 10848
+      mmTop = 0
+      mmWidth = 43656
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine24: TppLine
+      UserName = 'Line24'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 371740
+      mmTop = 0
+      mmWidth = 2117
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine6: TppLine
+      UserName = 'Line4'
+      Position = lpBottom
+      Weight = 0.750000000000000000
+      mmHeight = 3440
+      mmLeft = 265
+      mmTop = 1852
+      mmWidth = 371740
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine18: TppLine
+      UserName = 'Line18'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 343700
+      mmTop = 0
+      mmWidth = 1852
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine1: TppLine
+      UserName = 'Line5'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 356924
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine45: TppLine
+      UserName = 'Line45'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 215900
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine46: TppLine
+      UserName = 'Line46'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 220134
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine47: TppLine
+      UserName = 'Line47'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 224103
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine48: TppLine
+      UserName = 'Line48'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 228336
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine49: TppLine
+      UserName = 'Line49'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 232305
+      mmTop = 0
+      mmWidth = 1323
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine50: TppLine
+      UserName = 'Line50'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 237067
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine51: TppLine
+      UserName = 'Line51'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 241565
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine30: TppLine
+      UserName = 'Line30'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 220134
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine52: TppLine
+      UserName = 'Line52'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 249767
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine53: TppLine
+      UserName = 'Line53'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 245798
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine54: TppLine
+      UserName = 'Line54'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 249767
+      mmTop = 0
+      mmWidth = 1323
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine55: TppLine
+      UserName = 'Line55'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 254530
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine56: TppLine
+      UserName = 'Line56'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 258498
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine57: TppLine
+      UserName = 'Line57'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 262203
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine58: TppLine
+      UserName = 'Line58'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 266436
+      mmTop = 0
+      mmWidth = 1323
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine59: TppLine
+      UserName = 'Line59'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 270405
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine60: TppLine
+      UserName = 'Line60'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 275167
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine61: TppLine
+      UserName = 'Line61'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 279665
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine62: TppLine
+      UserName = 'Line62'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 283898
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine63: TppLine
+      UserName = 'Line63'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 287867
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine64: TppLine
+      UserName = 'Line64'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 292630
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine65: TppLine
+      UserName = 'Line65'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 296334
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine66: TppLine
+      UserName = 'Line66'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 300833
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine68: TppLine
+      UserName = 'Line68'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 305065
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine73: TppLine
+      UserName = 'Line73'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 309828
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine74: TppLine
+      UserName = 'Line74'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 313797
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine75: TppLine
+      UserName = 'Line75'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 318031
+      mmTop = 0
+      mmWidth = 529
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine77: TppLine
+      UserName = 'Line77'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 326242
+      mmTop = 0
+      mmWidth = 529
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine79: TppLine
+      UserName = 'Line79'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 321996
+      mmTop = 0
+      mmWidth = 529
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine80: TppLine
+      UserName = 'Line80'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 211922
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine83: TppLine
+      UserName = 'Line801'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 207953
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine85: TppLine
+      UserName = 'Line85'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 203721
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine87: TppLine
+      UserName = 'Line87'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 198958
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine89: TppLine
+      UserName = 'Line89'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 193400
+      mmTop = 0
+      mmWidth = 1588
+      BandType = 4
+      LayerName = Foreground
+    end
+  end
+  object ppFooterBand2: TppFooterBand
+    Background.Brush.Style = bsClear
+    mmBottomOffset = 0
+    mmHeight = 56356
+    mmPrintPosition = 0
+    object ppLabel109: TppLabel
+      UserName = 'Label1001'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 49477
+      mmLeft = 289190
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel100: TppLabel
+      UserName = 'Label100'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 49477
+      mmLeft = 205582
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel91: TppLabel
+      UserName = 'Label91'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 49477
+      mmLeft = 122238
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel66: TppLabel
+      UserName = 'Label66'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 49477
+      mmLeft = 530
+      mmTop = 794
+      mmWidth = 121444
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLine14: TppLine
+      UserName = 'Line2'
+      Weight = 0.750000000000000000
+      mmHeight = 1588
+      mmLeft = 0
+      mmTop = 51858
+      mmWidth = 374386
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppSystemVariable2: TppSystemVariable
+      UserName = 'SystemVariable1'
+      VarType = vtPrintDateTime
+      DisplayFormat = #39'Gedruckt am '#39'dd.mm.yyyy'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 0
+      mmTop = 52652
+      mmWidth = 30956
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppSystemVariable3: TppSystemVariable
+      UserName = 'SystemVariable2'
+      VarType = vtPageSetDesc
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 133615
+      mmTop = 52652
+      mmWidth = 16669
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel62: TppLabel
+      UserName = 'Label11'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Mitglieder der'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 7144
+      mmLeft = 529
+      mmTop = 794
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel63: TppLabel
+      UserName = 'Label63'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Zeugniskonferenz'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 529
+      mmTop = 7675
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel64: TppLabel
+      UserName = 'Label64'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Protokoll der'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 7144
+      mmLeft = 39423
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel65: TppLabel
+      UserName = 'Label65'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Zeugniskonferenz/Versetzungskonferenz'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 39423
+      mmTop = 7675
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel67: TppLabel
+      UserName = 'Label67'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Vorsitzende/r:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 529
+      mmTop = 13494
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel68: TppLabel
+      UserName = 'Label68'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Abteilungsleiter/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 39423
+      mmTop = 13492
+      mmWidth = 40217
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel69: TppLabel
+      UserName = 'Label69'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Klassenlehrer/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 79375
+      mmTop = 13494
+      mmWidth = 42598
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel70: TppLabel
+      UserName = 'Label70'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beschlussf'#228'hig:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 529
+      mmTop = 19049
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel71: TppLabel
+      UserName = 'Label71'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beginn:                           Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 39423
+      mmTop = 19049
+      mmWidth = 40217
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel72: TppLabel
+      UserName = 'Label72'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Ende:                                 Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 79375
+      mmTop = 19049
+      mmWidth = 42598
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel73: TppLabel
+      UserName = 'Label701'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Lehrer der Vers.konf.:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 529
+      mmTop = 24606
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel74: TppLabel
+      UserName = 'Label74'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 39423
+      mmTop = 24606
+      mmWidth = 21167
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel75: TppLabel
+      UserName = 'Label75'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 60325
+      mmTop = 24606
+      mmWidth = 19315
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel76: TppLabel
+      UserName = 'Label76'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 79376
+      mmTop = 24606
+      mmWidth = 21167
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel77: TppLabel
+      UserName = 'Label77'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 100278
+      mmTop = 24606
+      mmWidth = 21696
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel78: TppLabel
+      UserName = 'Label78'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 529
+      mmTop = 30159
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel79: TppLabel
+      UserName = 'Label79'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 39423
+      mmTop = 30159
+      mmWidth = 21167
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel80: TppLabel
+      UserName = 'Label80'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 60325
+      mmTop = 30159
+      mmWidth = 19315
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel81: TppLabel
+      UserName = 'Label81'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 79375
+      mmTop = 30159
+      mmWidth = 21167
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel82: TppLabel
+      UserName = 'Label82'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 100277
+      mmTop = 30159
+      mmWidth = 21696
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel83: TppLabel
+      UserName = 'Label83'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Protokoll der'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 7144
+      mmLeft = 122238
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel84: TppLabel
+      UserName = 'Label84'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Zwischenkonferenz'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 122238
+      mmTop = 7673
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel85: TppLabel
+      UserName = 'Label85'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Vorsitzende/r:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 122238
+      mmTop = 13494
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel86: TppLabel
+      UserName = 'Label86'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Abteilungsleiter/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 161131
+      mmTop = 13494
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel87: TppLabel
+      UserName = 'Label87'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Klassenlehrer/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 122238
+      mmTop = 19050
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel88: TppLabel
+      UserName = 'Label702'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beschlussf'#228'hig:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 161132
+      mmTop = 19050
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel89: TppLabel
+      UserName = 'Label89'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beginn:                           Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 122238
+      mmTop = 24606
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel90: TppLabel
+      UserName = 'Label90'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Ende:                                 Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 161132
+      mmTop = 24606
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel92: TppLabel
+      UserName = 'Label92'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Protokoll der'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 7144
+      mmLeft = 205582
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel93: TppLabel
+      UserName = 'Label93'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Abschlusskonferenz'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 205582
+      mmTop = 7673
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel94: TppLabel
+      UserName = 'Label94'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Vorsitzende/r:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 205582
+      mmTop = 13494
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel95: TppLabel
+      UserName = 'Label95'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Abteilungsleiter/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 244475
+      mmTop = 13494
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel96: TppLabel
+      UserName = 'Label96'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Klassenlehrer/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 205582
+      mmTop = 19050
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel97: TppLabel
+      UserName = 'Label97'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beschlussf'#228'hig:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 244475
+      mmTop = 19050
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel98: TppLabel
+      UserName = 'Label98'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beginn:                           Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 205582
+      mmTop = 24606
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel99: TppLabel
+      UserName = 'Label901'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Ende:                                 Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 244475
+      mmTop = 24606
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel101: TppLabel
+      UserName = 'Label12'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight]
+      Border.Visible = True
+      Caption = 'Protokoll der'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 7144
+      mmLeft = 289190
+      mmTop = 794
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel102: TppLabel
+      UserName = 'Label102'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Nachpr'#252'fung/Ersatzpr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 289190
+      mmTop = 7673
+      mmWidth = 82550
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel103: TppLabel
+      UserName = 'Label103'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Vorsitzende/r:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 289190
+      mmTop = 13494
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel104: TppLabel
+      UserName = 'Label104'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Abteilungsleiter/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 328084
+      mmTop = 13494
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel105: TppLabel
+      UserName = 'Label105'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Klassenlehrer/in:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 289190
+      mmTop = 19050
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel106: TppLabel
+      UserName = 'Label106'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beschlussf'#228'hig:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 328084
+      mmTop = 19050
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel107: TppLabel
+      UserName = 'Label107'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Beginn:                           Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 289190
+      mmTop = 24606
+      mmWidth = 39158
+      BandType = 8
+      LayerName = Foreground
+    end
+    object ppLabel108: TppLabel
+      UserName = 'Label108'
+      AutoSize = False
+      Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
+      Border.Visible = True
+      Caption = 'Ende:                                 Uhr'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 9
+      Font.Style = []
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 328084
+      mmTop = 24606
+      mmWidth = 43656
+      BandType = 8
+      LayerName = Foreground
+    end
+  end
+  object ppGroup2: TppGroup
+    BreakName = 'Klasse'
+    DataPipeline = dmPipelines.Schueler
+    GroupFileSettings.NewFile = False
+    GroupFileSettings.EmailFile = False
+    OutlineSettings.CreateNode = True
+    NewPage = True
+    ReprintOnSubsequentPage = False
+    StartOnOddPage = False
+    UserName = 'Group2'
+    mmNewColumnThreshold = 0
+    mmNewPageThreshold = 0
+    DataPipelineName = 'Schueler'
+    NewFile = False
+    object ppGroupHeaderBand2: TppGroupHeaderBand
+      Background.Brush.Style = bsClear
+      mmBottomOffset = 0
+      mmHeight = 0
+      mmPrintPosition = 0
+    end
+    object ppGroupFooterBand2: TppGroupFooterBand
+      Background.Brush.Style = bsClear
+      HideWhenOneDetail = False
+      mmBottomOffset = 0
+      mmHeight = 0
+      mmPrintPosition = 0
+    end
+  end
+  object raCodeModule2: TraCodeModule
+    ProgramStream = {
+      01060F547261436F6E737450726F6772616D094368696C645479706502120B50
+      726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
+      65070B747450726F63656475726506536F75726365065370726F636564757265
+      20436F6E7374616E74733B0D0A636F6E73740D0A202020526570566572733D27
+      5265706F727456657273696F6E3A2042412E30352E3031273B0D0A626567696E
+      0D0A0D0A656E643B0D0A084361726574506F730102000200000001060D547261
+      56617250726F6772616D094368696C645479706502110B50726F6772616D4E61
+      6D6506095661726961626C65730B50726F6772616D54797065070B747450726F
+      63656475726506536F75726365065E70726F636564757265205661726961626C
+      65733B0D0A7661720D0A20206B6C61737365203A20737472696E673B0D0A2020
+      736A2C20686A2C206C61203A20496E74656765723B200D0A20200D0A0D0A6265
+      67696E0D0A0D0A656E643B0D0A084361726574506F730102000200000001060F
+      5472614576656E7448616E646C65720B50726F6772616D4E616D650611526570
+      6F72744265666F72655072696E740B50726F6772616D54797065070B74745072
+      6F63656475726506536F7572636506DE70726F636564757265205265706F7274
+      4265666F72655072696E743B0D0A626567696E0D0A202046616563686572566F
+      7262656C6567656E3B0D0A20206B6C61737365203A3D2053636875656C65725B
+      274B6C61737365275D3B0D0A2020736A203A3D20456967656E65536368756C65
+      5B27536368756C6A616872275D3B0D0A2020686A203A3D20456967656E655363
+      68756C655B27536368756C6A61687241627363686E697474275D3B0D0A20206C
+      61203A3D20456967656E65536368756C655B27416E7A61686C41627363686E69
+      747465275D3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265
+      706F7274094576656E744E616D65060B4265666F72655072696E74074576656E
+      7449440201084361726574506F730102030203000001060F5472614576656E74
+      48616E646C65720B50726F6772616D4E616D65060F4C6162656C344F6E476574
+      546578740B50726F6772616D54797065070B747450726F63656475726506536F
+      757263650C4401000070726F636564757265204C6162656C344F6E4765745465
+      78742876617220546578743A20537472696E67293B0D0A766172206C53747220
+      3A20737472696E673B0D0A0D0A626567696E0D0A20206C5374723A3D496E7454
+      6F5374722828736A202B203129206D6F6420313030293B0D0A20206966204C65
+      6E677468286C53747229203C2032207468656E206C5374723A3D273027202B20
+      6C5374723B0D0A202054657874203A3D27536368756C6A6168722027202B2049
+      6E74546F53747228736A29202B20272F27202B206C537472202B20272C20272B
+      20496E74546F53747228686A293B0D0A20206966206C61203D2032207468656E
+      2054657874203A3D2054657874202B20272E20486A273B0D0A20206966206C61
+      203D2034207468656E2054657874203A3D2054657874202B20272E2051756172
+      74616C273B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506064C6162
+      656C34094576656E744E616D6506094F6E47657454657874074576656E744944
+      0235084361726574506F730102030205000001060F5472614576656E7448616E
+      646C65720B50726F6772616D4E616D6506105265706F72744166746572507269
+      6E740B50726F6772616D54797065070B747450726F63656475726506536F7572
+      6365064670726F636564757265205265706F727441667465725072696E743B0D
+      0A626567696E0D0A2020526573657446616563686572566F7262656C6567756E
+      673B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F7274
+      094576656E744E616D65060A41667465725072696E74074576656E7449440200
+      084361726574506F730102030203000000}
+  end
+  object ppDesignLayers1: TppDesignLayers
+    object ppDesignLayer1: TppDesignLayer
+      UserName = 'Foreground'
+      LayerType = ltBanded
+      Index = 0
+    end
+  end
+  object ppParameterList2: TppParameterList
+    object ppArchivierung: TppParameter
+      AutoSearchSettings.LogicalPrefix = []
+      AutoSearchSettings.Mandatory = True
+      AutoSearchSettings.SearchExpression = 'Schildvorgabe'
+      DataType = dtString
+      LookupSettings.DisplayType = dtNameOnly
+      LookupSettings.SortOrder = soName
+      Value = 'Schildvorgabe'
+      UserName = 'Archivierung'
+    end
+  end
+end

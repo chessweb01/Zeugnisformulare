@@ -1428,7 +1428,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4763
             mmLeft = 0
-            mmTop = 175980
+            mmTop = 179160
             mmWidth = 38100
             BandType = 4
             LayerName = Foreground1
@@ -1448,7 +1448,7 @@ object Report: TppReport
             DataPipelineName = 'ppBKAbschluss'
             mmHeight = 4498
             mmLeft = 110061
-            mmTop = 175968
+            mmTop = 179148
             mmWidth = 33073
             BandType = 4
             LayerName = Foreground1
@@ -1510,7 +1510,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 183636
+            mmTop = 186816
             mmWidth = 149490
             BandType = 4
             LayerName = Foreground1
@@ -1530,7 +1530,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4498
             mmLeft = 0
-            mmTop = 187865
+            mmTop = 191045
             mmWidth = 41540
             BandType = 4
             LayerName = Foreground1

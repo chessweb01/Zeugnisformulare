@@ -1,0 +1,26 @@
+
+[Queries]
+__qryFaecherOhneAAx
+
+;-------------------------------------------------------------------------------------
+;
+[Query__qryFaecherOhneAAx]
+Name=__qryFaecherOhneAAx
+MasterSource=Schueler.Datasource
+InitCommand=select esf.FachKrz, esf.Zeugnisbez from eigeneschule_faecher esf where esf.ID=-1
+Command1=select esf.FachKrz, esf.Zeugnisbez from eigeneschule_faecher esf
+Command2=where esf.FachKrz<>'AA1' and esf.FachKrz<>'AA2' and esf.FachKrz<>'AA3'
+Command3=and ID in (select sld.Fach_ID from schuelerleistungsdaten sld
+Command4=where Abschnitt_ID in (select slad.ID from schuelerlernabschnittsdaten slad, eigeneschule es
+Command5=where Jahr=es.Schuljahr and Abschnitt=es.Schuljahrabschnitt and slad.Schueler_ID=:ID))
+Command6=order by esf.Sortierung
+
+[Datasource__qryFaecherOhneAAx]
+Name=__dsFaecherOhneAAx
+
+[Pipeline__qryFaecherOhneAAx]
+Name=__pplnFaecherOhneAAx
+OpenDatasource=1
+CloseDatasource=1
+SkipWhenNoRecords=0
+UserName=xxFaecherOhneAAx

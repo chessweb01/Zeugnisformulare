@@ -2003,9 +2003,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 28838
+        mmLeft = 32015
         mmTop = 13229
-        mmWidth = 56886
+        mmWidth = 53711
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2246,6 +2246,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
