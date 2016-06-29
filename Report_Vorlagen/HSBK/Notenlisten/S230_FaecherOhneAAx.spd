@@ -4,6 +4,7 @@ __qryFaecherOhneAAx
 
 ;-------------------------------------------------------------------------------------
 ;
+;Command2 filtert unerwünschte Fächer aus (hier: FachKrz = AA1, AA2, AA3)
 [Query__qryFaecherOhneAAx]
 Name=__qryFaecherOhneAAx
 MasterSource=Schueler.Datasource
