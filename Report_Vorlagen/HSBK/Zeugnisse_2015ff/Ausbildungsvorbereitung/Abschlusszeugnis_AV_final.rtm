@@ -604,8 +604,9 @@ object Report: TppReport
           object ppLabel37: TppLabel
             UserName = 'Label37'
             Caption = 
-              'hat einen dem Hauptschulabschluss gleichwertigen Abschluss erwor' +
-              'ben.'
+              'hat berufliche Kenntnisse, F'#228'higkeiten und Fertigkeiten und beru' +
+              'fliche Orientierung und einen dem Hauptschulabschluss gleichwert' +
+              'igen Abschluss erworben.'
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
             Font.Name = 'Univers'
@@ -614,10 +615,10 @@ object Report: TppReport
             TextAlignment = taCentered
             Transparent = True
             WordWrap = True
-            mmHeight = 12171
-            mmLeft = 15346
+            mmHeight = 24342
+            mmLeft = 8731
             mmTop = 118004
-            mmWidth = 123031
+            mmWidth = 137848
             BandType = 4
             LayerName = Foreground1
           end

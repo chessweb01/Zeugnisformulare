@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = ' Drucker autom. Auswahl'
-  PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+  PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
@@ -18,9 +18,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 420000
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Fachschule\Abschlusszeugnis_FS_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Fachschule\Abschlusszeugnis_FS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -99,7 +97,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -147,7 +145,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsuebergreifend
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -205,7 +203,7 @@ object Report: TppReport
                   mmHeight = 5000
                   mmLeft = 6000
                   mmTop = 0
-                  mmWidth = 102000
+                  mmWidth = 113771
                   BandType = 4
                   LayerName = Foreground6
                 end
@@ -222,9 +220,9 @@ object Report: TppReport
                   TextAlignment = taCentered
                   DataPipelineName = 'plBKBerufsuebergreifend'
                   mmHeight = 5000
-                  mmLeft = 110067
+                  mmLeft = 120067
                   mmTop = 0
-                  mmWidth = 54000
+                  mmWidth = 33070
                   BandType = 4
                   LayerName = Foreground6
                 end
@@ -321,7 +319,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plBKBerufsbezogen
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -379,9 +377,9 @@ object Report: TppReport
                   TextAlignment = taCentered
                   DataPipelineName = 'plBKBerufsbezogen'
                   mmHeight = 5000
-                  mmLeft = 110000
+                  mmLeft = 120000
                   mmTop = 0
-                  mmWidth = 54000
+                  mmWidth = 33070
                   BandType = 4
                   LayerName = Foreground7
                 end
@@ -398,7 +396,7 @@ object Report: TppReport
                   mmHeight = 5000
                   mmLeft = 6000
                   mmTop = 0
-                  mmWidth = 102000
+                  mmWidth = 113771
                   BandType = 4
                   LayerName = Foreground7
                 end
@@ -532,9 +530,9 @@ object Report: TppReport
                   TextAlignment = taCentered
                   DataPipelineName = 'plBKDifferenzierung'
                   mmHeight = 5000
-                  mmLeft = 110000
+                  mmLeft = 120000
                   mmTop = 0
-                  mmWidth = 54000
+                  mmWidth = 33070
                   BandType = 4
                   LayerName = Foreground8
                 end
@@ -551,7 +549,7 @@ object Report: TppReport
                   mmHeight = 5000
                   mmLeft = 6000
                   mmTop = 0
-                  mmWidth = 102000
+                  mmWidth = 113506
                   BandType = 4
                   LayerName = Foreground8
                 end
@@ -776,7 +774,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport6: TppChildReport
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -1132,7 +1130,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plZUV
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
@@ -1196,9 +1194,9 @@ object Report: TppReport
                   TextAlignment = taCentered
                   DataPipelineName = 'plZUV'
                   mmHeight = 4498
-                  mmLeft = 110000
+                  mmLeft = 120000
                   mmTop = 0
-                  mmWidth = 53711
+                  mmWidth = 33070
                   BandType = 4
                   LayerName = Foreground4
                 end
@@ -1970,7 +1968,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = ' Drucker autom. Auswahl'
-        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+        PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -2146,7 +2144,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport9: TppChildReport
               PrinterSetup.BinName = ' Drucker autom. Auswahl'
-              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
+              PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_wip.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
               PrinterSetup.PaperName = 'A3'
