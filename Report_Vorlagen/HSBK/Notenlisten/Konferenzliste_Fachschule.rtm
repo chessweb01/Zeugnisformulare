@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Konferenzliste_FS.rtm'
+  PrinterSetup.DocumentName = 'Konferenzliste_Fachschule.rtm'
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
   PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -18,8 +18,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    '\\server-v\schild$\Schild-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Konferenzliste_FS.rtm'
+    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Notenlist' +
+    'en\Konferenzliste_Fachschule.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -343,49 +343,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport6: TppChildReport
         AutoStop = False
-        Columns = 4
-        ColumnPositions.Strings = (
-          '0'
-          '70000'
-          '140000'
-          '210000'
-          '28356'
-          '35445'
-          '42534'
-          '49623'
-          '56712'
-          '63801'
-          '70890'
-          '77979'
-          '85068'
-          '92157'
-          '99246'
-          '106335'
-          '113424'
-          '120513'
-          '127602'
-          '134691'
-          '141780'
-          '148869'
-          '155958'
-          '163047'
-          '170136'
-          '177225'
-          '184314'
-          '191403'
-          '198492'
-          '205581'
-          '212670'
-          '219759'
-          '226848'
-          '233937'
-          '241026'
-          '248115'
-          '255204'
-          '262293'
-          '269382'
-          '276471'
-          '283560')
+        Columns = 3
         DataPipeline = dmPipelines.__pplnFaecherOhneAAx
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
@@ -403,7 +361,7 @@ object Report: TppReport
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
-        mmColumnWidth = 70000
+        mmColumnWidth = 124766
         DataPipelineName = '__pplnFaecherOhneAAx'
         object ppTitleBand1: TppTitleBand
           Background.Brush.Style = bsClear
@@ -438,7 +396,7 @@ object Report: TppReport
             mmHeight = 3969
             mmLeft = 1852
             mmTop = 529
-            mmWidth = 17198
+            mmWidth = 11642
             BandType = 4
             LayerName = Foreground2
           end
@@ -454,9 +412,9 @@ object Report: TppReport
             Transparent = True
             DataPipelineName = '__pplnFaecherOhneAAx'
             mmHeight = 3969
-            mmLeft = 19844
+            mmLeft = 15081
             mmTop = 529
-            mmWidth = 48683
+            mmWidth = 109538
             BandType = 4
             LayerName = Foreground2
           end
@@ -508,7 +466,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plSchuelerKlasse
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Konferenzliste_FS.rtm'
+        PrinterSetup.DocumentName = 'Konferenzliste_Fachschule.rtm'
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -2130,146 +2088,6 @@ object Report: TppReport
       BandType = 4
       LayerName = Foreground
     end
-    object ppSubReport2: TppSubReport
-      UserName = 'SubReport2'
-      ExpandAll = False
-      NewPrintJob = False
-      OutlineSettings.CreateNode = True
-      ParentPrinterSetup = False
-      ParentWidth = False
-      TraverseAllData = False
-      DataPipelineName = 'plFachuebersicht'
-      mmHeight = 4498
-      mmLeft = 73025
-      mmTop = 0
-      mmWidth = 120650
-      BandType = 4
-      LayerName = Foreground
-      mmBottomOffset = 0
-      mmOverFlowOffset = 0
-      mmStopPosition = 0
-      mmMinHeight = 0
-      object ppChildReport4: TppChildReport
-        AutoStop = False
-        Columns = 41
-        ColumnPositions.Strings = (
-          '0'
-          '7089'
-          '14178'
-          '21267'
-          '28356'
-          '35445'
-          '42534'
-          '49623'
-          '56712'
-          '63801'
-          '70890'
-          '77979'
-          '85068'
-          '92157'
-          '99246'
-          '106335'
-          '113424'
-          '120513'
-          '127602'
-          '134691'
-          '141780'
-          '148869'
-          '155958'
-          '163047'
-          '170136'
-          '177225'
-          '184314'
-          '191403'
-          '198492'
-          '205581'
-          '212670'
-          '219759'
-          '226848'
-          '233937'
-          '241026'
-          '248115'
-          '255204'
-          '262293'
-          '269382'
-          '276471'
-          '283560')
-        DataPipeline = dmPipelines.plFachuebersicht
-        PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
-        PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
-        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
-        PrinterSetup.SaveDeviceSettings = False
-        PrinterSetup.mmMarginBottom = 10350
-        PrinterSetup.mmMarginLeft = 25350
-        PrinterSetup.mmMarginRight = 20350
-        PrinterSetup.mmMarginTop = 10350
-        PrinterSetup.mmPaperHeight = 297000
-        PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
-        Template.Format = ftASCII
-        Units = utMillimeters
-        Version = '15.05'
-        mmColumnWidth = 7089
-        DataPipelineName = 'plFachuebersicht'
-        object ppTitleBand2: TppTitleBand
-          Background.Brush.Style = bsClear
-          mmBottomOffset = 0
-          mmHeight = 0
-          mmPrintPosition = 0
-        end
-        object ppColumnHeaderBand2: TppColumnHeaderBand
-          Background.Brush.Style = bsClear
-          mmBottomOffset = 0
-          mmHeight = 0
-          mmPrintPosition = 0
-        end
-        object ppDetailBand5: TppDetailBand
-          Background1.Brush.Style = bsClear
-          Background2.Brush.Style = bsClear
-          ColumnTraversal = ctLeftToRight
-          mmBottomOffset = 0
-          mmHeight = 5027
-          mmPrintPosition = 0
-          object ppLine5: TppLine
-            UserName = 'Line5'
-            ParentHeight = True
-            Position = lpRight
-            Weight = 0.750000000000000000
-            mmHeight = 5027
-            mmLeft = 5026
-            mmTop = 0
-            mmWidth = 1323
-            BandType = 4
-            LayerName = Foreground4
-          end
-        end
-        object ppColumnFooterBand2: TppColumnFooterBand
-          AlignToBottom = True
-          Background.Brush.Style = bsClear
-          mmBottomOffset = 0
-          mmHeight = 0
-          mmPrintPosition = 0
-        end
-        object ppSummaryBand2: TppSummaryBand
-          Background.Brush.Style = bsClear
-          mmBottomOffset = 0
-          mmHeight = 0
-          mmPrintPosition = 0
-        end
-        object raCodeModule3: TraCodeModule
-          ProgramStream = {00}
-        end
-        object ppDesignLayers5: TppDesignLayers
-          object ppDesignLayer5: TppDesignLayer
-            UserName = 'Foreground4'
-            LayerType = ltBanded
-            Index = 0
-          end
-        end
-      end
-    end
     object ppLine7: TppLine
       UserName = 'Line7'
       ParentHeight = True
@@ -2825,6 +2643,91 @@ object Report: TppReport
       mmWidth = 1588
       BandType = 4
       LayerName = Foreground
+    end
+    object ppSubReport2: TppSubReport
+      UserName = 'SubReport2'
+      ExpandAll = False
+      NewPrintJob = False
+      OutlineSettings.CreateNode = True
+      ParentPrinterSetup = False
+      ParentWidth = False
+      TraverseAllData = False
+      DataPipelineName = '__pplnFaecherOhneAAx'
+      mmHeight = 4498
+      mmLeft = 71702
+      mmTop = 0
+      mmWidth = 121973
+      BandType = 4
+      LayerName = Foreground
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmMinHeight = 0
+      object ppChildReport4: TppChildReport
+        AutoStop = False
+        Columns = 41
+        DataPipeline = dmPipelines.__pplnFaecherOhneAAx
+        PrinterSetup.BinName = 'Default'
+        PrinterSetup.DocumentName = 'Notenuebersicht_Fehlstd_Tab_leer_neu.rtm'
+        PrinterSetup.Orientation = poLandscape
+        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
+        PrinterSetup.SaveDeviceSettings = False
+        PrinterSetup.mmMarginBottom = 10350
+        PrinterSetup.mmMarginLeft = 25350
+        PrinterSetup.mmMarginRight = 20350
+        PrinterSetup.mmMarginTop = 10350
+        PrinterSetup.mmPaperHeight = 297000
+        PrinterSetup.mmPaperWidth = 420000
+        PrinterSetup.PaperSize = 8
+        Template.Format = ftASCII
+        Units = utMillimeters
+        Version = '15.05'
+        mmColumnWidth = 7089
+        DataPipelineName = '__pplnFaecherOhneAAx'
+        object ppColumnHeaderBand2: TppColumnHeaderBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object ppDetailBand5: TppDetailBand
+          Background1.Brush.Style = bsClear
+          Background2.Brush.Style = bsClear
+          ColumnTraversal = ctLeftToRight
+          mmBottomOffset = 0
+          mmHeight = 5027
+          mmPrintPosition = 0
+          object ppLine5: TppLine
+            UserName = 'Line5'
+            ParentHeight = True
+            Position = lpRight
+            Weight = 0.750000000000000000
+            mmHeight = 5027
+            mmLeft = 6000
+            mmTop = 0
+            mmWidth = 265
+            BandType = 4
+            LayerName = Foreground4
+          end
+        end
+        object ppColumnFooterBand2: TppColumnFooterBand
+          Background.Brush.Style = bsClear
+          mmBottomOffset = 0
+          mmHeight = 0
+          mmPrintPosition = 0
+        end
+        object raCodeModule3: TraCodeModule
+          ProgramStream = {00}
+        end
+        object ppDesignLayers5: TppDesignLayers
+          object ppDesignLayer5: TppDesignLayer
+            UserName = 'Foreground4'
+            LayerType = ltBanded
+            Index = 0
+          end
+        end
+      end
     end
   end
   object ppFooterBand2: TppFooterBand

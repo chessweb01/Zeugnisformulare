@@ -1045,7 +1045,7 @@ object Report: TppReport
           Background2.Brush.Style = bsClear
           PrintHeight = phDynamic
           mmBottomOffset = 0
-          mmHeight = 22754
+          mmHeight = 34131
           mmPrintPosition = 0
           object ppLabel8: TppLabel
             UserName = 'Label8'
@@ -1076,9 +1076,9 @@ object Report: TppReport
             ParentDataPipeline = False
             RemoveEmptyLines = False
             DataPipelineName = 'plLernabschnitte'
-            mmHeight = 12171
+            mmHeight = 28046
             mmLeft = 0
-            mmTop = 9525
+            mmTop = 5821
             mmWidth = 181240
             BandType = 4
             LayerName = Foreground5
@@ -1099,7 +1099,7 @@ object Report: TppReport
             Transparent = True
             mmHeight = 4233
             mmLeft = 529
-            mmTop = 3175
+            mmTop = 1585
             mmWidth = 22225
             BandType = 4
             LayerName = Foreground5
@@ -1433,7 +1433,7 @@ object Report: TppReport
           Background1.Brush.Style = bsClear
           Background2.Brush.Style = bsClear
           mmBottomOffset = 0
-          mmHeight = 23283
+          mmHeight = 9525
           mmPrintPosition = 0
           object ppLine3: TppLine
             UserName = 'Line3'
@@ -2246,6 +2246,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

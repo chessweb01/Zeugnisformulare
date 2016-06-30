@@ -7,8 +7,8 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'A3'
-  PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+  PrinterSetup.PaperName = 'Custom'
+  PrinterSetup.PrinterName = 'HP LaserJet P2035'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 20000
   PrinterSetup.mmMarginLeft = 22000
@@ -16,7 +16,7 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 20000
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
@@ -102,8 +102,8 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
-        PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PrinterName = 'HP LaserJet P2035'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 20000
         PrinterSetup.mmMarginLeft = 22000
@@ -111,7 +111,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 20000
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'BS Abschluss Innenseite     (A3)'
         Template.Format = ftASCII
         Units = utMillimeters
@@ -149,8 +149,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -158,7 +158,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -323,8 +323,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -332,7 +332,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -476,8 +476,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -485,7 +485,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -715,9 +715,9 @@ object Report: TppReport
             Font.Size = 11
             Font.Style = [fsBold]
             Transparent = True
-            mmHeight = 4763
+            mmHeight = 5027
             mmLeft = 0
-            mmTop = 196321
+            mmTop = 201613
             mmWidth = 26458
             BandType = 4
             LayerName = Foreground1
@@ -778,8 +778,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -787,7 +787,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -969,9 +969,9 @@ object Report: TppReport
             ParentDataPipeline = False
             RemoveEmptyLines = False
             DataPipelineName = 'plLernabschnitte'
-            mmHeight = 33073
+            mmHeight = 27252
             mmLeft = 0
-            mmTop = 201645
+            mmTop = 207434
             mmWidth = 165894
             BandType = 4
             LayerName = Foreground1
@@ -1007,8 +1007,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -1016,7 +1016,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -1134,8 +1134,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -1143,7 +1143,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -1972,8 +1972,8 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
-        PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PrinterName = 'HP LaserJet P2035'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 20000
         PrinterSetup.mmMarginLeft = 22000
@@ -1981,7 +1981,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 20000
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'BS Abschluss Vorderseite    (A3)'
         Template.Format = ftASCII
         Units = utMillimeters
@@ -2148,8 +2148,8 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Abschlusszeugnis_FS_final.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'A3'
-              PrinterSetup.PrinterName = 'HP LaserJet 5200 Series PCL 5'
+              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PrinterName = 'HP LaserJet P2035'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 20000
               PrinterSetup.mmMarginLeft = 22000
@@ -2157,7 +2157,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 20000
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
