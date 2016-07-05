@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Abgangszeugnis_AV_IFK_final.rtm'
+  PrinterSetup.DocumentName = #220'berweisungszeugnis_AV_final.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -16,9 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Ausbildungsvorbereitung\Abgangszeugnis_AV_IFK_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Ausbildungsvorbereitung\''#220''berweisungszeugnis_AV_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -83,7 +81,7 @@ object Report: TppReport
       OutlineSettings.CreateNode = True
       ParentPrinterSetup = False
       TraverseAllData = False
-      Filename = 'Zeugniskopf_AbgZ_2015ff.rtm'
+      Filename = 'Zeugniskopf_'#220'Z_2015ff.rtm'
       DataPipelineName = 'EigeneSchule'
       mmHeight = 5027
       mmLeft = 0
@@ -110,7 +108,6 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
-        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1016,7 +1013,6 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
-        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1522,7 +1518,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Abgangszeugnis_AV_IFK_final.rtm'
+        PrinterSetup.DocumentName = #220'berweisungszeugnis_AV_final.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -2093,7 +2089,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 0
         mmTop = 11113
-        mmWidth = 50006
+        mmWidth = 48683
         BandType = 3
         GroupNo = 0
         LayerName = Foreground

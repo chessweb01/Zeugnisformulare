@@ -1697,7 +1697,6 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
-        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1707,11 +1706,10 @@ object Report: TppReport
           Background1.Brush.Style = bsClear
           Background2.Brush.Style = bsClear
           mmBottomOffset = 0
-          mmHeight = 23283
+          mmHeight = 34396
           mmPrintPosition = 0
           object ppLabel16: TppLabel
             UserName = 'Label13'
-            Anchors = [atLeft, atBottom]
             Caption = 'Vers'#228'umte Stunden: '
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
@@ -1719,9 +1717,9 @@ object Report: TppReport
             Font.Size = 9
             Font.Style = []
             Transparent = True
-            mmHeight = 3968
+            mmHeight = 3969
             mmLeft = 0
-            mmTop = 15347
+            mmTop = 27502
             mmWidth = 30427
             BandType = 4
             LayerName = Foreground7
@@ -1731,14 +1729,13 @@ object Report: TppReport
             Weight = 0.750000000000000000
             mmHeight = 1058
             mmLeft = 0
-            mmTop = 4233
+            mmTop = 16654
             mmWidth = 180975
             BandType = 4
             LayerName = Foreground7
           end
           object ppLabel12: TppLabel
             UserName = 'Label12'
-            Anchors = [atLeft, atBottom]
             AutoSize = False
             Caption = 'Nicht ausreichende Leistungen gef'#228'hrden den Abschluss.'
             Font.Charset = DEFAULT_CHARSET
@@ -1750,7 +1747,7 @@ object Report: TppReport
             WordWrap = True
             mmHeight = 3969
             mmLeft = 0
-            mmTop = 7938
+            mmTop = 21946
             mmWidth = 180182
             BandType = 4
             LayerName = Foreground7
@@ -1764,10 +1761,10 @@ object Report: TppReport
             Font.Size = 9
             Font.Style = []
             Transparent = True
-            mmHeight = 3968
+            mmHeight = 3969
             mmLeft = 31485
-            mmTop = 15347
-            mmWidth = 11907
+            mmTop = 27502
+            mmWidth = 11906
             BandType = 4
             LayerName = Foreground7
           end
@@ -1867,7 +1864,6 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
-        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1982,7 +1978,7 @@ object Report: TppReport
   object ppFooterBand2: TppFooterBand
     Background.Brush.Style = bsClear
     mmBottomOffset = 0
-    mmHeight = 88371
+    mmHeight = 83079
     mmPrintPosition = 0
     object ppLabel21: TppLabel
       UserName = 'Label21'
@@ -1997,7 +1993,7 @@ object Report: TppReport
       Transparent = True
       mmHeight = 3175
       mmLeft = 129646
-      mmTop = 29893
+      mmTop = 26448
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -2015,7 +2011,7 @@ object Report: TppReport
       Transparent = True
       mmHeight = 3175
       mmLeft = 265
-      mmTop = 29891
+      mmTop = 26446
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -2034,7 +2030,7 @@ object Report: TppReport
       Visible = False
       mmHeight = 3175
       mmLeft = 65088
-      mmTop = 32803
+      mmTop = 29358
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -2053,7 +2049,7 @@ object Report: TppReport
       WordWrap = True
       mmHeight = 3969
       mmLeft = 50271
-      mmTop = 11640
+      mmTop = 7930
       mmWidth = 15081
       BandType = 8
       LayerName = Foreground
@@ -2064,7 +2060,7 @@ object Report: TppReport
       Weight = 0.750000000000000000
       mmHeight = 4498
       mmLeft = 0
-      mmTop = 24601
+      mmTop = 21156
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -2075,7 +2071,7 @@ object Report: TppReport
       Weight = 0.750000000000000000
       mmHeight = 3969
       mmLeft = 65088
-      mmTop = 25130
+      mmTop = 21685
       mmWidth = 50006
       BandType = 8
       LayerName = Foreground
@@ -2109,7 +2105,7 @@ object Report: TppReport
       Transparent = True
       mmHeight = 3969
       mmLeft = 129646
-      mmTop = 11640
+      mmTop = 7930
       mmWidth = 50536
       BandType = 8
       LayerName = Foreground
@@ -2120,7 +2116,7 @@ object Report: TppReport
       Weight = 0.750000000000000000
       mmHeight = 3969
       mmLeft = 129646
-      mmTop = 25130
+      mmTop = 21685
       mmWidth = 50536
       BandType = 8
       LayerName = Foreground
@@ -2176,7 +2172,7 @@ object Report: TppReport
       DataPipelineName = 'plLernabschnitte'
       mmHeight = 3175
       mmLeft = 53446
-      mmTop = 29893
+      mmTop = 26448
       mmWidth = 74613
       BandType = 8
       LayerName = Foreground
@@ -2187,7 +2183,7 @@ object Report: TppReport
       Weight = 1.500000000000000000
       mmHeight = 1588
       mmLeft = 0
-      mmTop = 37561
+      mmTop = 34381
       mmWidth = 182298
       BandType = 8
       LayerName = Foreground
@@ -2215,7 +2211,7 @@ object Report: TppReport
       Transparent = True
       mmHeight = 14817
       mmLeft = 0
-      mmTop = 73540
+      mmTop = 68240
       mmWidth = 181240
       BandType = 8
       LayerName = Foreground
@@ -2252,7 +2248,7 @@ object Report: TppReport
       Transparent = True
       mmHeight = 31750
       mmLeft = 0
-      mmTop = 40739
+      mmTop = 36499
       mmWidth = 180975
       BandType = 8
       LayerName = Foreground
@@ -2287,7 +2283,7 @@ object Report: TppReport
       Visible = False
       mmHeight = 31750
       mmLeft = 265
-      mmTop = 40736
+      mmTop = 36496
       mmWidth = 180975
       BandType = 8
       LayerName = Foreground
@@ -2310,7 +2306,7 @@ object Report: TppReport
       Visible = False
       mmHeight = 3704
       mmLeft = 39688
-      mmTop = 1052
+      mmTop = 787
       mmWidth = 91546
       BandType = 8
       LayerName = Foreground
@@ -2332,14 +2328,14 @@ object Report: TppReport
     object ppGroupHeaderBand1: TppGroupHeaderBand
       Background.Brush.Style = bsClear
       mmBottomOffset = 0
-      mmHeight = 27517
+      mmHeight = 25135
       mmPrintPosition = 0
       object ppLine2: TppLine
         UserName = 'Line2'
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 0
-        mmTop = 26459
+        mmTop = 21159
         mmWidth = 180975
         BandType = 3
         GroupNo = 0
@@ -2386,7 +2382,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 5556
+        mmTop = 3701
         mmWidth = 179652
         BandType = 3
         GroupNo = 0
@@ -2415,7 +2411,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 12700
+        mmTop = 8990
         mmWidth = 179652
         BandType = 3
         GroupNo = 0
@@ -2436,7 +2432,7 @@ object Report: TppReport
         Transparent = True
         mmHeight = 4233
         mmLeft = 0
-        mmTop = 19315
+        mmTop = 14280
         mmWidth = 47361
         BandType = 3
         GroupNo = 0
@@ -2457,7 +2453,7 @@ object Report: TppReport
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
         mmLeft = 48681
-        mmTop = 19315
+        mmTop = 14280
         mmWidth = 64823
         BandType = 3
         GroupNo = 0
@@ -2640,6 +2636,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
