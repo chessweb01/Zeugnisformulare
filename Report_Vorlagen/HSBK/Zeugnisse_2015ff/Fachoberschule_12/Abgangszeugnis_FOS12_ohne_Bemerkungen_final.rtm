@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_mit_NPVermerk_final.rtm'
+  PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_ohne_Bemerkungen_final.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -16,7 +16,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Fachoberschule_12\Abgangszeugnis_FOS12_final.rtm'
+  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Fachoberschule_12\Abgangszeugnis_FOS12_ohne_Bemerkungen_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -1073,6 +1073,7 @@ object Report: TppReport
             DataPipeline = dmPipelines.plLernabschnitte
             ParentDataPipeline = False
             RemoveEmptyLines = False
+            Visible = False
             DataPipelineName = 'plLernabschnitte'
             mmHeight = 12171
             mmLeft = 0
@@ -1095,6 +1096,7 @@ object Report: TppReport
             Font.Size = 10
             Font.Style = []
             Transparent = True
+            Visible = False
             mmHeight = 4233
             mmLeft = 529
             mmTop = 3175
@@ -1233,6 +1235,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1444,6 +1447,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -1508,7 +1512,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_mit_NPVermerk_final.rtm'
+        PrinterSetup.DocumentName = 'Abgangszeugnis_FOS12_ohne_Bemerkungen_final.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -2286,6 +2290,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
