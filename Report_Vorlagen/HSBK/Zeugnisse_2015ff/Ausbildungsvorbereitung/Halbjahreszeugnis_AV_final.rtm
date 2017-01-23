@@ -2017,7 +2017,7 @@ object Report: TppReport
         mmHeight = 4234
         mmLeft = 0
         mmTop = 16676
-        mmWidth = 41804
+        mmWidth = 43656
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2032,9 +2032,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 42861
+        mmLeft = 46831
         mmTop = 16676
-        mmWidth = 41804
+        mmWidth = 49477
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2153,9 +2153,9 @@ object Report: TppReport
         RemoveEmptyLines = False
         Transparent = True
         mmHeight = 4233
-        mmLeft = 37306
+        mmLeft = 37835
         mmTop = 11113
-        mmWidth = 142611
+        mmWidth = 142082
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2370,6 +2370,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

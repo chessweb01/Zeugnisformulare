@@ -16,7 +16,10 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse_2015ff\Berufsschule\Abgangszeugnis_BS_ohne Bemerkungen_final.rtm'
+  Template.FileName = 
+    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
+    '_2015ff\Berufsschule\Abgangszeugnis_BS_ohne Bemerkungen_final.rt' +
+    'm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -2002,9 +2005,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 46832
+        mmLeft = 49213
         mmTop = 19322
-        mmWidth = 56886
+        mmWidth = 60854
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2295,6 +2298,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

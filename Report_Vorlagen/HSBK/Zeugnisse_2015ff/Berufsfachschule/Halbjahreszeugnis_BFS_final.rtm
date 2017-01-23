@@ -1025,7 +1025,7 @@ object Report: TppReport
           Background2.Brush.Style = bsClear
           PrintHeight = phDynamic
           mmBottomOffset = 0
-          mmHeight = 22754
+          mmHeight = 30692
           mmPrintPosition = 0
           object ppLabel8: TppLabel
             UserName = 'Label8'
@@ -1056,7 +1056,7 @@ object Report: TppReport
             ParentDataPipeline = False
             RemoveEmptyLines = False
             DataPipelineName = 'plLernabschnitte'
-            mmHeight = 12171
+            mmHeight = 21167
             mmLeft = 0
             mmTop = 9525
             mmWidth = 181240
