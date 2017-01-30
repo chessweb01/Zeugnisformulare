@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Abgangszeugnis_BFS_BSPf_nicht_erf_mit_NPVermerk_final.rtm'
+  PrinterSetup.DocumentName = 'Abgangszeugnis_BFS_BSPf_nicht_erf_final.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -18,8 +18,8 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Zeugnisse' +
-    '_2015ff\Berufsfachschule\Abgangszeugnis_BFS_BSPf_nicht_erf_mit_N' +
-    'PVermerk_final.rtm'
+    '_2015ff\Berufsfachschule\Abgangszeugnis_BFS_BSPf_nicht_erf_final' +
+    '.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -111,6 +111,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -301,6 +302,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utMillimeters
         Version = '15.05'
@@ -589,7 +591,7 @@ object Report: TppReport
           Background2.Brush.Style = bsClear
           PrintHeight = phDynamic
           mmBottomOffset = 0
-          mmHeight = 14000
+          mmHeight = 42598
           mmPrintPosition = 0
           object ppDBText7: TppDBText
             UserName = 'DBText7'
@@ -641,10 +643,10 @@ object Report: TppReport
             RemoveEmptyLines = False
             Visible = False
             DataPipelineName = 'plBKBerufsbezogen'
-            mmHeight = 6500
+            mmHeight = 32015
             mmLeft = 10000
-            mmTop = 3969
-            mmWidth = 130000
+            mmTop = 8995
+            mmWidth = 137319
             BandType = 4
             LayerName = Foreground3
             mmBottomOffset = 0
@@ -869,7 +871,7 @@ object Report: TppReport
           Background2.Brush.Style = bsClear
           PrintHeight = phDynamic
           mmBottomOffset = 0
-          mmHeight = 5027
+          mmHeight = 33338
           mmPrintPosition = 0
           object ppDBText10: TppDBText
             UserName = 'DBText10'
@@ -1088,7 +1090,7 @@ object Report: TppReport
             ParentDataPipeline = False
             RemoveEmptyLines = False
             DataPipelineName = 'plLernabschnitte'
-            mmHeight = 12171
+            mmHeight = 22754
             mmLeft = 0
             mmTop = 9525
             mmWidth = 181240
@@ -1522,7 +1524,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Abgangszeugnis_BFS_BSPf_nicht_erf_mit_NPVermerk_final.rtm'
+        PrinterSetup.DocumentName = 'Abgangszeugnis_BFS_BSPf_nicht_erf_final.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -1965,9 +1967,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4763
-        mmLeft = 56086
+        mmLeft = 57415
         mmTop = 16676
-        mmWidth = 13229
+        mmWidth = 15875
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2357,6 +2359,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end

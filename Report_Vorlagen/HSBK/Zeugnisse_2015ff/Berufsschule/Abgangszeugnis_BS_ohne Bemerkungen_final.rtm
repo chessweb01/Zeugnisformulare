@@ -2007,7 +2007,7 @@ object Report: TppReport
         mmHeight = 4233
         mmLeft = 49213
         mmTop = 19322
-        mmWidth = 60854
+        mmWidth = 68792
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2298,6 +2298,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end

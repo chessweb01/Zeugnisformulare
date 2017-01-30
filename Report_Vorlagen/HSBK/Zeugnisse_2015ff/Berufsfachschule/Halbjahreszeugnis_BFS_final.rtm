@@ -1025,7 +1025,7 @@ object Report: TppReport
           Background2.Brush.Style = bsClear
           PrintHeight = phDynamic
           mmBottomOffset = 0
-          mmHeight = 30692
+          mmHeight = 27781
           mmPrintPosition = 0
           object ppLabel8: TppLabel
             UserName = 'Label8'
@@ -1056,7 +1056,7 @@ object Report: TppReport
             ParentDataPipeline = False
             RemoveEmptyLines = False
             DataPipelineName = 'plLernabschnitte'
-            mmHeight = 21167
+            mmHeight = 18256
             mmLeft = 0
             mmTop = 9525
             mmWidth = 181240
@@ -1984,9 +1984,9 @@ object Report: TppReport
         Transparent = True
         DataPipelineName = 'plLernabschnitte'
         mmHeight = 4233
-        mmLeft = 103970
+        mmLeft = 100806
         mmTop = 21438
-        mmWidth = 56886
+        mmWidth = 60061
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2018,9 +2018,9 @@ object Report: TppReport
         Font.Style = []
         Transparent = True
         mmHeight = 4233
-        mmLeft = 87039
+        mmLeft = 82815
         mmTop = 21438
-        mmWidth = 15081
+        mmWidth = 17992
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2046,9 +2046,9 @@ object Report: TppReport
         Font.Style = [fsBold]
         Transparent = True
         mmHeight = 4233
-        mmLeft = 25133
+        mmLeft = 26458
         mmTop = 21438
-        mmWidth = 13229
+        mmWidth = 18785
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2138,10 +2138,10 @@ object Report: TppReport
           #39'dd. mmmm yyyy'#39'>Aufnahmedatum</dbtext>\f1\par'#13#10'}'#13#10#0
         RemoveEmptyLines = False
         Transparent = True
-        mmHeight = 4233
-        mmLeft = 37307
-        mmTop = 11110
-        mmWidth = 142611
+        mmHeight = 4498
+        mmLeft = 35983
+        mmTop = 10848
+        mmWidth = 143669
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
