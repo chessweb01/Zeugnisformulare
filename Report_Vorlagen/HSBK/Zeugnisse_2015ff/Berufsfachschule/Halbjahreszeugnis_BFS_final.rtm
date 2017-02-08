@@ -2139,9 +2139,9 @@ object Report: TppReport
         RemoveEmptyLines = False
         Transparent = True
         mmHeight = 4498
-        mmLeft = 35983
+        mmLeft = 38365
         mmTop = 10848
-        mmWidth = 143669
+        mmWidth = 141288
         BandType = 3
         GroupNo = 0
         LayerName = Foreground
@@ -2411,6 +2411,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
