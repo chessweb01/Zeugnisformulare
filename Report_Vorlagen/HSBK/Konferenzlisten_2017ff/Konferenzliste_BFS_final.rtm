@@ -713,7 +713,7 @@ object Report: TppReport
       Style = lsDouble
       Weight = 0.750000000000000000
       mmHeight = 10054
-      mmLeft = 209290
+      mmLeft = 191032
       mmTop = 39952
       mmWidth = 2381
       BandType = 0
@@ -730,7 +730,7 @@ object Report: TppReport
       TextAlignment = taCentered
       Transparent = True
       mmHeight = 3704
-      mmLeft = 212200
+      mmLeft = 193942
       mmTop = 39952
       mmWidth = 20902
       BandType = 0
@@ -746,7 +746,7 @@ object Report: TppReport
       Font.Style = [fsBold]
       Transparent = True
       mmHeight = 3704
-      mmLeft = 210613
+      mmLeft = 192355
       mmTop = 43921
       mmWidth = 21696
       BandType = 0
@@ -768,7 +768,7 @@ object Report: TppReport
       Position = lpLeft
       Weight = 0.750000000000000000
       mmHeight = 9260
-      mmLeft = 233632
+      mmLeft = 215373
       mmTop = 40746
       mmWidth = 794
       BandType = 0
@@ -804,6 +804,50 @@ object Report: TppReport
       mmLeft = 234955
       mmTop = 43921
       mmWidth = 24341
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel10: TppLabel
+      UserName = 'Label10'
+      Caption = 'Praktikum'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 216694
+      mmTop = 40217
+      mmWidth = 16404
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel14: TppLabel
+      UserName = 'Label14'
+      Caption = 'Wochen'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 218282
+      mmTop = 43921
+      mmWidth = 12965
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine25: TppLine
+      UserName = 'Line25'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 9260
+      mmLeft = 233628
+      mmTop = 40746
+      mmWidth = 794
       BandType = 0
       LayerName = Foreground
     end
@@ -1111,7 +1155,7 @@ object Report: TppReport
       Style = lsDouble
       Weight = 0.750000000000000000
       mmHeight = 5292
-      mmLeft = 209290
+      mmLeft = 191032
       mmTop = 0
       mmWidth = 2910
       BandType = 4
@@ -1135,7 +1179,19 @@ object Report: TppReport
       Position = lpLeft
       Weight = 0.750000000000000000
       mmHeight = 5292
-      mmLeft = 233632
+      mmLeft = 215373
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine26: TppLine
+      UserName = 'Line26'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 233628
       mmTop = 0
       mmWidth = 265
       BandType = 4
