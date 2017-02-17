@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Konferenzliste_basic.rtm'
+  PrinterSetup.DocumentName = 'Konferenzliste_BFS_final.rtm'
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
   PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -19,7 +19,7 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Konferenz' +
-    'listen_2017ff\Konferenzliste_basic.rtm'
+    'listen_2017ff\Konferenzliste_BFS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -135,7 +135,7 @@ object Report: TppReport
       mmHeight = 10054
       mmLeft = 73028
       mmTop = 35190
-      mmWidth = 166159
+      mmWidth = 114829
       BandType = 0
       LayerName = Foreground
       mmBottomOffset = 0
@@ -320,18 +320,6 @@ object Report: TppReport
       mmLeft = 70908
       mmTop = 39946
       mmWidth = 4498
-      BandType = 0
-      LayerName = Foreground
-    end
-    object ppLine15: TppLine
-      UserName = 'Line15'
-      Position = lpLeft
-      Style = lsDouble
-      Weight = 0.750000000000000000
-      mmHeight = 10054
-      mmLeft = 239869
-      mmTop = 39946
-      mmWidth = 2381
       BandType = 0
       LayerName = Foreground
     end
@@ -522,7 +510,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plSchuelerKlasse
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Konferenzliste_basic.rtm'
+        PrinterSetup.DocumentName = 'Konferenzliste_BFS_final.rtm'
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -597,8 +585,8 @@ object Report: TppReport
       TextAlignment = taCentered
       Transparent = True
       mmHeight = 3704
-      mmLeft = 258234
-      mmTop = 39688
+      mmLeft = 268821
+      mmTop = 39952
       mmWidth = 18256
       BandType = 0
       LayerName = Foreground
@@ -643,7 +631,7 @@ object Report: TppReport
       Position = lpLeft
       Weight = 0.750000000000000000
       mmHeight = 9260
-      mmLeft = 293159
+      mmLeft = 294484
       mmTop = 40740
       mmWidth = 794
       BandType = 0
@@ -678,7 +666,7 @@ object Report: TppReport
     end
     object ppLabel8: TppLabel
       UserName = 'Label8'
-      Caption = 'HJZ, Abgang oder Abschluss'
+      Caption = 'HJZ/JZ/AbgZ/AbsZ'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Tahoma'
@@ -686,9 +674,9 @@ object Report: TppReport
       Font.Style = [fsBold]
       Transparent = True
       mmHeight = 3704
-      mmLeft = 243417
+      mmLeft = 262203
       mmTop = 43921
-      mmWidth = 47890
+      mmWidth = 31221
       BandType = 0
       LayerName = Foreground
     end
@@ -713,9 +701,109 @@ object Report: TppReport
       Font.Style = [fsBold]
       Transparent = True
       mmHeight = 4233
-      mmLeft = 295011
+      mmLeft = 296071
       mmTop = 43921
       mmWidth = 29369
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine2: TppLine
+      UserName = 'Line6'
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 10054
+      mmLeft = 209290
+      mmTop = 39952
+      mmWidth = 2381
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel1: TppLabel
+      UserName = 'Label1'
+      Caption = 'Nachpr'#252'fung'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 212200
+      mmTop = 39952
+      mmWidth = 20902
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel2: TppLabel
+      UserName = 'Label2'
+      Caption = '---/Nein/Fach'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 210613
+      mmTop = 43921
+      mmWidth = 21696
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine15: TppLine
+      UserName = 'Line15'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 9260
+      mmLeft = 260351
+      mmTop = 40746
+      mmWidth = 794
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLine19: TppLine
+      UserName = 'Line19'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 9260
+      mmLeft = 233632
+      mmTop = 40746
+      mmWidth = 794
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel7: TppLabel
+      UserName = 'Label7'
+      Caption = 'Abschlussart'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 237335
+      mmTop = 39952
+      mmWidth = 20637
+      BandType = 0
+      LayerName = Foreground
+    end
+    object ppLabel3: TppLabel
+      UserName = 'Label5'
+      Caption = 'HS/FOR/FOR Q'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Tahoma'
+      Font.Size = 9
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 3704
+      mmLeft = 234955
+      mmTop = 43921
+      mmWidth = 24341
       BandType = 0
       LayerName = Foreground
     end
@@ -760,7 +848,7 @@ object Report: TppReport
       mmHeight = 4498
       mmLeft = 73025
       mmTop = 0
-      mmWidth = 164836
+      mmWidth = 114829
       BandType = 4
       LayerName = Foreground
       mmBottomOffset = 0
@@ -926,19 +1014,6 @@ object Report: TppReport
       BandType = 4
       LayerName = Foreground
     end
-    object ppLine16: TppLine
-      UserName = 'Line16'
-      ParentHeight = True
-      Position = lpLeft
-      Style = lsDouble
-      Weight = 0.750000000000000000
-      mmHeight = 5292
-      mmLeft = 239869
-      mmTop = 0
-      mmWidth = 2910
-      BandType = 4
-      LayerName = Foreground
-    end
     object ppLine10: TppLine
       UserName = 'Line10'
       ParentHeight = True
@@ -988,7 +1063,7 @@ object Report: TppReport
       Position = lpLeft
       Weight = 0.750000000000000000
       mmHeight = 5292
-      mmLeft = 293159
+      mmLeft = 294484
       mmTop = 0
       mmWidth = 265
       BandType = 4
@@ -1024,6 +1099,43 @@ object Report: TppReport
       Weight = 0.750000000000000000
       mmHeight = 5292
       mmLeft = 325967
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine1: TppLine
+      UserName = 'Line5'
+      ParentHeight = True
+      Position = lpLeft
+      Style = lsDouble
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 209290
+      mmTop = 0
+      mmWidth = 2910
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine16: TppLine
+      UserName = 'Line16'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 260351
+      mmTop = 0
+      mmWidth = 265
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine20: TppLine
+      UserName = 'Line20'
+      ParentHeight = True
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 5292
+      mmLeft = 233632
       mmTop = 0
       mmWidth = 265
       BandType = 4
