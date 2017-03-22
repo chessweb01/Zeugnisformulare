@@ -4,7 +4,7 @@ object Report: TppReport
   DataPipeline = dmPipelines.Schueler
   OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Konferenzliste_Fachschule.rtm'
+  PrinterSetup.DocumentName = 'Konferenzliste_FS_final.rtm'
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
   PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -17,7 +17,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 420000
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
-  Template.FileName = '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Konferenzlisten_2017ff\Konferenzliste_Fachschule_final.rtm'
+  Template.FileName = 
+    '\\server-v\schild$\SchILD-Reports\Report_Vorlagen\HSBK\Konferenz' +
+    'listen_2017ff\Konferenzliste_FS_final.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -464,7 +466,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plSchuelerKlasse
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Konferenzliste_Fachschule.rtm'
+        PrinterSetup.DocumentName = 'Konferenzliste_FS_final.rtm'
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'HP Color LaserJet CP5225dn UPD PCL 6'
@@ -2874,7 +2876,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Zeugniskonferenz'
+      Caption = 'Konferenz'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -2912,7 +2914,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Zeugniskonferenz/Versetzungskonferenz'
+      Caption = 'Zulassungskonferenz'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3007,7 +3009,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Beginn:                           Uhr'
+      Caption = 'Beginn:                         Uhr'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3026,7 +3028,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Ende:                                 Uhr'
+      Caption = 'Ende:                               Uhr'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3045,7 +3047,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Lehrer der Vers.konf.:'
+      Caption = 'Lehrer der Konferenz:'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3340,7 +3342,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Beginn:                           Uhr'
+      Caption = 'Beginn:                         Uhr'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3492,7 +3494,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Beginn:                           Uhr'
+      Caption = 'Beginn:                       Uhr'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3644,7 +3646,7 @@ object Report: TppReport
       AutoSize = False
       Border.BorderPositions = [bpLeft, bpTop, bpRight, bpBottom]
       Border.Visible = True
-      Caption = 'Beginn:                           Uhr'
+      Caption = 'Beginn:                         Uhr'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Arial'
@@ -3702,8 +3704,27 @@ object Report: TppReport
       Background.Brush.Style = bsClear
       HideWhenOneDetail = False
       mmBottomOffset = 0
-      mmHeight = 0
+      mmHeight = 5027
       mmPrintPosition = 0
+      object ppLabel110: TppLabel
+        UserName = 'Label29'
+        Caption = 
+          'HINWEIS: Bitte tragen Sie die Zeugnisnote FHR auch in die Spalte' +
+          ' MNT und in die Notendatei ein.'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 12
+        Font.Style = []
+        Transparent = True
+        mmHeight = 4762
+        mmLeft = 529
+        mmTop = 265
+        mmWidth = 179123
+        BandType = 5
+        GroupNo = 0
+        LayerName = Foreground
+      end
     end
   end
   object raCodeModule2: TraCodeModule
